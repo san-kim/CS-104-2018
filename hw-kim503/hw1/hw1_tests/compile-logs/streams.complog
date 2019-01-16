@@ -1,0 +1,9 @@
+[ 50%] Built target kwsys
+Scanning dependencies of target q5_streams
+[ 55%] Building CXX object CMakeFiles/q5_streams.dir/home/cs104/cs104/hw-kim503/hw1/hw1q5.cpp.o
+[ 61%] Linking CXX executable q5_streams
+[ 61%] Built target q5_streams
+[ 88%] Built target testing_utils
+[ 94%] Building CXX object streams/CMakeFiles/streams_test.dir/streams_test.cpp.o
+[100%] Linking CXX executable streams_test
+[100%] Built target streams_test

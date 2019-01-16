@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g3 -O0   CMakeFiles/q4_palindrome.dir/home/cs104/cs104/hw-kim503/hw1/palindrome.cpp.o  -o q4_palindrome 

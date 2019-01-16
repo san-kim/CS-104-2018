@@ -1,0 +1,372 @@
+Problem 2
+
+Part a)
+
+Empty queue (start)
+stack 1			stack 2
+(top)				(top)
+
+(bottom)			(bottom)
+
+
+After "enqueue 1"
+stack 1			stack 2
+(top)				(top)
+
+  1 
+
+(bottom)			(bottom)
+Explanation: 1 is pushed to the top of stack 1
+
+
+After "enqueue 2"
+stack 1			stack 2
+(top)				(top)
+
+  2
+  1 
+
+(bottom)			(bottom)
+Explanation: 2 is pushed to the top of stack 1
+
+
+After "dequeue"
+stack 1			stack 2
+(top)				(top)
+					  
+    				  2
+
+(bottom)			(bottom)
+Explanation: 2 is popped from stack 1 and is pushed to the empty stack 2. 1 is 
+then popped from stack 1 and pushed to the top of stack 2. Then the top of 
+stack 2 is popped, so 1 is popped, leaving stack 2 with 2 as its only element. 
+
+
+After "enqueue 3"
+stack 1			stack 2
+(top)				(top)
+					  
+  3  				  2
+
+(bottom)			(bottom)
+Explanation: 3 is pushed to the top of stack 1
+
+
+After "enqueue 4"
+stack 1			stack 2
+(top)				(top)
+					  
+  4				  2
+  3  				  
+
+(bottom)			(bottom)
+Explanation: 4 is pushed to the top of stack 1
+
+
+After "dequeue"
+stack 1			stack 2
+(top)				(top)
+					  
+  4					  
+  3  				  
+
+(bottom)			(bottom)
+Explanation: because stack 2 was not empty, we pop the top of stack 2, which is 
+2. stack 2 is now empty.
+
+
+After "enqueue 5"
+stack 1			stack 2
+(top)				(top)
+
+  5					  
+  4					  
+  3  				  
+
+(bottom)			(bottom)
+Explanation: 5 is pushed to the top of stack 1
+
+
+After "enqueue 6"
+stack 1			stack 2
+(top)				(top)
+
+  6
+  5					  
+  4					  
+  3  				  
+
+(bottom)			(bottom)
+Explanation: 6 is pushed to the top of stack 1
+
+End result: stack 1 (top) 6,5,4,3 (bottom), stack 2 is empty
+
+
+Part b)
+
+Answer: enqueue: theta(1), dequeue: theta(n)
+Assuming that the push function for stack is a constant big theta of 1, the 
+worst case runtime for enqueue(x) will be big theta of 1 (constant time) 
+because it is only pushing x to the top of stack 1.
+dequeue(), on the other hand, will take worst-case big theta of (n) where n is 
+the number of elements enqueued thus far (or the number of elements in both 
+stack combined) because in the worst case where dequeue is being called for the 
+first time, all n elements will be in stack 1. These n elements would then have 
+to be individually popped from stack 1 and pushed to stack 2, which would both 
+sum up to be theta(1) n times, which would equate to theta(n) each. This would 
+mean that the push and pop operations would be theta(2n), which is still 
+theta(n). We would then need to pop from stack 2, but this is just a theta(1) 
+operation, thus the worst case dequeue() operation would be 
+theta(n) + theta(1), which would turn out to be theta(n).
+
+
+Part c)
+
+Answer: enqueue: theta(1), dequeue: theta(n^2)
+enqueue(x) can still only push x to stack 1, and push is still a theta(1) 
+operation, so enqueue's worst case runtime is still theta(1). 
+dequeue(), in its worst-case where all n elements (n being all elements in both 
+stacks 1 and 2) are in stack 1, will have to pop each n elements of stack 1 but 
+with their respective run times: the first call to pop() will take theta(n), 
+the second call to pop will take theta(n-1), ... until the last call will take 
+theta(1). So the summation of all pop operations would be n*(n+1)/2, which 
+simplifies to theta of (n^2). Similar to part b, the push(x) part from stack 1 
+to stack 2 will take n*theta(1) time, which would again make the push portion 
+of the dequeue operation theta(n). The popping from stack 2 portion will now 
+take theta of n now that all n elements are in stack 2. The addition of the 
+pops from stack 1, push to stack 2, and the one pop from stack 2 yields: 
+theta(n^2) + theta(n) + theta(n), which equates to theta(n^2).
+
+
+
+Problem 3
+
+Part a)
+Answer: theta(nlogn)
+The outer forloop will give us (summation i = 0 to n-1)of(theta of the inner 
+operations). Because this is the worst case analysis, we will assume that all 
+of A[i] will be 0 and thus that the inner forloop will always run. 
+The inner forloop will run theta of logn times because j will increment such 
+that j = 1,2,4,...n-1 (if n-1 is a power of 2, otherwise will still stop as 
+soon as j is greater than n), or otherwise j = 2^0, 2^1, 2^2, ... 2^log(n-1). 
+Since the forloop will stop after j >= n, it will therefore 
+run (int)log(n-1) + 1 (including 2^0) times until j is n or greater than it. 
+The inner forloop will thus be theta of log(n-1). 
+The equation log(n-1) can be written as big Omega(log(n)) because 
+for all n>3 (for constant c = 0.5), log(n-1) will be greater than 0.5*log(n) 
+because log(n-1) will grow faster than log(n^0.5) if the 0.5 is moved in the 
+logarithm. The equation log(n-1) can also be written as big O(log(n)) because 
+for a constant c = 2 and n>1, 2*log(n) will be greater than log(n-1), so 
+log(n-1) is big O(log(n)) by definition. Now because log(n) is both the 
+big O and big Omega of log(n-1), we can say that log(n-1) is theta(log(n)).
+Therefore, the theta notation of the runtime of the inner loop would simplify 
+to theta(log(n)). 
+Going back to the summation of the outer forloop, 
+we get (summation i = 0 to n-1)of(log(n)), which would equate to 
+theta((n-1)logn) which would be just theta(nlogn). 
+
+
+Part b)
+Answer: theta(n*(logn)^2)
+With the outer forloop being i = 1,2, ... n-1 and the inner forloop being 
+j = i, i+1, ... n-1, we know that in order for the if condition (j%i == 0) to 
+be true, j must be a multiple of i while still being less than n. Starting from 
+j = i (where j%i would be 0), we want to find out how many times that j can be 
+a multiple of i without exceeding n, so put simply we can do (the int value of) 
+(n-1)/i to find how many times this occurs. 
+For example, if n = 10 and i = 3, then j will be from 3,4,5,6,7,8,9, and 
+(n-1)/i = 9/3 = 3, which is the number of times j is a multiple of 
+i = 3 (j = 3, 6, and 9). The if statement will therefore trigger (n-1)/i times 
+for the entire duration of each inner forloop cycle (from j = i to n-1). 
+For when the if statement is true, the innermost forloop will be 
+theta(log(n-1)) for the same reason as in part a: k will be 1,2,4, ... until it 
+reaches n-1 (or the power of 2 immediately greater than n), or 2^0, 2^1, 2^3 
+... 2^log(n-1) and thus will run theta(log(n-1)) times. As proved by part a, 
+theta(log(n-1)) equates to theta(log(n)), so the innermost forloop will run 
+theta(logn) times when called.
+Therefore the equation for the runtime of the second forloop would be 
+((n-1)/i)*(log(n-1)) or otherwise theta((n)log(n)/i) as we simplified the 
+log(n-1) to theta(logn) and, when the (n-1)/i is expanded to (n/i) - (1/i), 
+the n/i will grow faster than 1/i and thus is simplified to be theta(n/i) and 
+multiplied to theta(logn), giving us theta(n*log(n)/i).
+We then insert this into summation of the first forloop: 
+summation(i = 1 to n)of(n*log(n)/i). We can take out the nlog(n) outside the 
+summation as a multiplier because it does not depend on the incrementation of i 
+and therefore can just be multiplied to the resulting summation: 
+nlog(n) * summation(i = 1 to n-1) of (1/i). The summation(i = 1 to n-1)(1/i) is 
+in the format of the harmonic series, which results to theta(log(n-1)), which 
+again equates to theta(logn). 
+The equation then becomes nlog(n) * log(n), which results to theta(n(logn)^2).
+
+The resulting theta notation for the program becomes theta(n * (logn)^2). 
+
+
+Part c)
+Answer: theta(n^2)
+A pseudocode representation of this code would be:
+size = 10
+for(i = 0 ... n)
+	if (i == size)
+		theta(1) operations
+		for(j = 0 ... size)
+			theta(1)
+		size = size + 10
+		theta(1) operations
+	theta(1) operation
+
+If we remove the theta(1) operations -- assuming that there will be operations 
+greater than theta(1) later on, we get:
+size = 10
+for(i = 0 ... n)
+	if (i == size)
+		for(j = 0 ... size)
+			theta(1)
+		size = size + 10
+
+From here (assuming that n is greater than 10 as this is worst case) the if 
+statement (i == size) will be true (the int value of) n/10 times; the size, 
+starting at 10, increments by 10 every time that i is a multiple of 10 starting 
+from i = 10 until size reaches or exceeds n. If the condition i == size is 
+true, then the inner forloop executes a theta(1) operation i = size times, 
+resulting in theta(size) or theta(i) when the if condition is true. 
+
+Because the inner forloop operation only occurs when the if conditional is true 
+aka i is a multiple of 10, we can rewrite the outer forloop so that it runs 
+only n/10 times (the same concept as incrementing i by 10 until it reaches n) 
+and we can remove the if condition and the size variable entirely. The outer 
+forloop will start at int k = 0 and will loop n/10 times: the k will, in 
+essence, represent the number of times that the if conditional has been true 
+(when the original i equaled a multiple of 10). We must then adjust the inner 
+forloop's upper bound to be k*10 because each k now represents when the if 
+statement is true, or when the original i equaled size, which is when i and 
+size were multiples of 10, so since the inner loop only runs when the if 
+conditional is true, it will only run when the original i equaled a multiple of 
+10. To clarify, k is, in essence, the number of times that size incremented by 
+10 because that is how many times the if conditional was true; therefore, by 
+multiplying k by 10, we can get our size and preserve the original condition of 
+the second forloop such that j<size because the number of times that the inner 
+forloop runs its theta(1) operation should not change in this context as we 
+have just merged the outer forloop and the if statement without changing the 
+function of the inner forloop (we just translated j's bounds in terms of the 
+new k).
+
+for(int k = 0; k<n/10.0; k++)
+	for(int j = 0; j<k*10; j++)
+		theta(1) operation
+
+From here it becomes 
+summation(i = 0 to n/10) of (theta(10*i)) = 
+summation(i = 0 to n/10)of(theta(i)) = 
+theta((n/10)^2) by definition of the arithmetic series, which can be simplified 
+to theta(n^2). 
+
+
+
+Part d)
+Answer: theta(n)
+We can similarly pseudo-represent this code with theta notation as:
+size = 10
+for(i = 0 ... n-1)
+	if (i == size)
+		theta(1) operations
+		for(j = 0 ... size-1)
+			theta(1) operation
+		theta(1) operations
+		size = size*2
+	theta(1) operation
+
+Assuming that there will be larger operations than the theta(1) operations 
+within the if statement and first forloop, we can "consume" those theta(1) 
+operations as we can see that there will be operations that will be greater 
+than constant time:
+
+size = 10
+for(i = 0 ... n-1)
+	if (i == size)
+		for(j = 0 ... size-1)
+			theta(1) operation
+		size = size*2
+
+We can again more or less take out the size variable and the if statement 
+because we know exactly how many times i will equal size and instead 
+increment i instead of size such that i starts at 10 and increments by itself 
+(or multiplies by 2) every time until it reaches or exceeds n--essentially 
+merging the if statement and the forloop. This simplified version would be if 
+we set i as the role of the size, the inner forloop of j=0...size could be 
+written as j = 0...i as i is effectively our new size, and we can increment i 
+(from 10) by a multiple of 2 until it reaches n. 
+
+
+Code equivalent:
+
+for(int i = 10; i<n; i *= 2)
+	for(int j = 0; j<i; j++)
+		theta(1) operation
+
+
+
+In this case the equation is: 
+	10*(theta(1)) + 20*(theta(1)) + 40*(theta(1)) + 80*(theta(1)) + ... +
+	n*(theta(1)) = 
+	10*2^0*(theta(1)) + 10*2^1*(theta(1)) + 10*2^2(theta(1)) + ... + 
+	10*2^logn*(theta(1)) =
+(in summation form, will happen log(n/10) times because if number of times it 
+happens = x, 10*2^x = n and so x = log(n/10), and sum of 0 to 10*2^i as 
+demonstrated above)
+	summation(i = 0 to log(n/10)) of (summation(j = 0 to 10*2^i) of (1)) = 
+(bring 10 from inner summation outside of the summations)
+	10 * summation(i = 0 to log(n/10)) of (summation(j = 0 to 2^i) of (1))  =  
+(inner summation just equates to 2^i)
+	10 * summation(i = 0 to log(n/10)) of (2^i)
+(by geometric series definition)
+	10 * theta(2^(log(n/10))) = 
+(simplify)
+	10 * theta(n/10) = theta(n)
+(answer)
+	theta(n)
+
+
+
+OR
+
+
+
+Another derivative way we could explain this is that: we see that after i = 10, 
+size will multiply by 2 every time that i = the new size. We know that--letting 
+"x" be the total number of times that i equals size-- 10*2^x will equal n 
+(or exceed it, but x must be the first power of 2 to do so) because we start at 
+size = 10 and multiply size by two every time that i == size and until it is 
+greater than or equal to n. Dividing by 10 from each side we get 2^x = n/10, 
+and if we put this equation in its logarithmic form, we get x = log(n/10), so 
+the i == size if conditional will run log(n/10) times.
+
+Therefore we have it that "i" will equal each value of size log(n/10) times. 
+Now that we have set k as the number of times that the if statement is 
+triggered (k = 0 ... log(n/10.0)), we have to reset the second forloop's j 
+upper bound to be less than 10*2^k because based on our current k, that figure 
+is the "size" at the given k-th time that the if statement is true. This is so 
+because the first time that the if statement is true (when our current k = 0) 
+the size is 10 and therefore our starting point must be 10 when k = 0, and 
+since size multiplies by 2 every time the if statement (again, kept track by 
+our k) we must multiply our starting 10 by 2^k, making our new "size" upper 
+bound for the second forloop now equal to 10*2^k to accommodate the new 
+definition of k that replaced the original "i" value. We are again essentially 
+merging the outer forloop and the if statement to make it easier to represent, 
+so even if the second forloop is based on the first forloop, we do not want to 
+change its fundamental function of being from 0 to "size".
+
+
+Code equivalent:
+
+for(double k = 0; k<log(n/10.0); k++)
+	for(int j = 0; j<10*2^k; j++)
+		theta(1) operation
+
+
+In this case the equation is equal to :
+the summation(i = 0 to log(n/10)-1) of (10*2^i), which then also simplifies to 
+theta of 10*summation(i = 0 to log(n/10)-1)of(2^i), which simplifies to 
+theta(2^(log(n/10)-1)) = theta(n/10 - 1) = theta(n) as according to the 
+geometric series definition. 
+
+Therefore the resulting runtime for this program would be theta(n).

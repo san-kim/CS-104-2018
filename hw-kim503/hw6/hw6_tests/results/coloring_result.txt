@@ -1,0 +1,11 @@
+Test Coloring.OneCountry passed
+Test Coloring.SmallGivenMap passed
+Test Coloring.MediumGivenMap passed
+Test Coloring.LargeGivenMap passed
+Test Coloring.Backtracking1 passed
+Test Coloring.Backtracking2 passed
+Test Coloring.WikipediaExample passed
+Test Coloring.MaxLetters passed
+Test Coloring.MaxSize passed
+
+All Test Cases Passed

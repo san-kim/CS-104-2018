@@ -1,0 +1,172 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.OneCountry:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.OneCountry
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.OneCountry
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/OneCountry/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/OneCountry/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.OneCountry (596 ms)
+[----------] 1 test from Coloring (596 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (596 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.SmallGivenMap:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.SmallGivenMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.SmallGivenMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/SmallGivenMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/SmallGivenMap/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.SmallGivenMap (856 ms)
+[----------] 1 test from Coloring (856 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (856 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.MediumGivenMap:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.MediumGivenMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.MediumGivenMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MediumGivenMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MediumGivenMap/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.MediumGivenMap (546 ms)
+[----------] 1 test from Coloring (546 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (546 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.LargeGivenMap:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.LargeGivenMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.LargeGivenMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/LargeGivenMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/LargeGivenMap/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.LargeGivenMap (565 ms)
+[----------] 1 test from Coloring (565 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (565 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.Backtracking1:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.Backtracking1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.Backtracking1
+This test is executing your program with the following command line: 
+/home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking1/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking1/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.Backtracking1 (2 ms)
+[----------] 1 test from Coloring (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.Backtracking2:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.Backtracking2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.Backtracking2
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking2/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking2/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.Backtracking2 (565 ms)
+[----------] 1 test from Coloring (565 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (565 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.WikipediaExample:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.WikipediaExample
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.WikipediaExample
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/WikipediaExample/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/WikipediaExample/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.WikipediaExample (578 ms)
+[----------] 1 test from Coloring (578 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (578 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.MaxLetters:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.MaxLetters
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.MaxLetters
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxLetters/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxLetters/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.MaxLetters (567 ms)
+[----------] 1 test from Coloring (567 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (567 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Coloring.MaxSize:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.MaxSize
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.MaxSize
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxSize/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxSize/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.MaxSize (595 ms)
+[----------] 1 test from Coloring (595 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (595 ms total)
+[  PASSED  ] 1 test.

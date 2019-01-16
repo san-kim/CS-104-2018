@@ -1,0 +1,12 @@
+Test FirstMemtest.Execution passed
+Test SimpleCharManager.ConstructionDestruction passed
+Test SimpleCharManager.OneCharAlloc passed
+Test SimpleCharManager.OneCharFree passed
+Test SimpleCharManager.FiveCharAlloc passed
+Test SimpleCharManager.FiveCharAllocFree passed
+Test SimpleCharManager.AllocFree_x2 passed
+Test SimpleCharManager.FreeAll passed
+Test SimpleCharManager.Alloc10000Chars passed
+Test SimpleCharManager.Alloc1Charx10000 passed
+
+All Test Cases Passed

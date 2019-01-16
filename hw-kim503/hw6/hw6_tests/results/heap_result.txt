@@ -1,0 +1,29 @@
+Test HeapTest.ConstructionDestruction passed
+Test HeapTest.InitiallyEmpty passed
+Test HeapTest.EmptyPeekException passed
+Test HeapTest.EmptyRemoveException passed
+Test HeapTest.SingleItemNonempty passed
+Test HeapTest.SingleItemPush passed
+Test HeapTest.SingleItemPushPop passed
+Test HeapTest.TwoElementPush_LowPriFirst passed
+Test HeapTest.TwoElementPush_HighPriFirst passed
+Test HeapTest.TwoElementsSamePriority passed
+Test HeapTest.NegativePriorities passed
+Test HeapTest.ThreeElementPush_10_20_30 passed
+Test HeapTest.ThreeElementPush_10_30_20 passed
+Test HeapTest.ThreeElementPush_20_10_30 passed
+Test HeapTest.ThreeElementPush_20_30_10 passed
+Test HeapTest.ThreeElementPush_30_10_20 passed
+Test HeapTest.ThreeElementPush_30_20_10 passed
+Test HeapTest.StringStorage passed
+Test HeapTest.ThreeElementPush_TrinaryHeap passed
+Test HeapTest.ThreeElementPush_QuaternaryHeap passed
+Test HeapStress.50x50RandomElements_BinaryHeap passed
+Test HeapStress.50x50RandomElements_QuaternaryHeap passed
+Test HeapStress.50x50RandomElements_DodecenaryHeap passed
+Test HeapStress.2x10000RandomElements_Binary passed
+Test HeapRuntime.Add passed
+Test HeapRuntime.Peek passed
+Test HeapRuntime.Remove passed
+
+All Test Cases Passed

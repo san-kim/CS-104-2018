@@ -1,0 +1,14 @@
+Test Search.OneSquare passed
+Test Search.MicroHorizontal passed
+Test Search.MicroVertical passed
+Test Search.Discontiguous passed
+Test Search.Ring passed
+Test Search.EqualSmallerCountries passed
+Test Search.26Letters passed
+Test Search.DiagonalCountries passed
+Test Search.ProvidedMap passed
+Test Search.WindingRing passed
+Test Search.Concentric passed
+Test Search.Checkerboard passed
+
+All Test Cases Passed

@@ -1,0 +1,13 @@
+[ 39%] Built target kwsys
+[ 47%] Built target hw1_simple_char_manager
+[ 52%] Building CXX object CMakeFiles/hw1_flex_char_manager.dir/home/cs104/cs104/hw-kim503/hw1/flexCharManager.cpp.o
+[ 56%] Linking CXX static library libhw1_flex_char_manager.a
+[ 56%] Built target hw1_flex_char_manager
+[ 60%] Building CXX object CMakeFiles/second_memtest.dir/home/cs104/cs104/hw-kim503/hw1/second_memtest.cpp.o
+[ 65%] Linking CXX executable second_memtest
+[ 65%] Built target second_memtest
+[ 86%] Built target testing_utils
+[ 91%] Building CXX object flex_char_manager/CMakeFiles/flex_char_manager_test.dir/second_memtest_test.cpp.o
+[ 95%] Building CXX object flex_char_manager/CMakeFiles/flex_char_manager_test.dir/flex_mem_test.cpp.o
+[100%] Linking CXX executable flex_char_manager_test
+[100%] Built target flex_char_manager_test

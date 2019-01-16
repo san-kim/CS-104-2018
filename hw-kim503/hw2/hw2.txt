@@ -1,0 +1,181 @@
+Problem 1
+part a : The README.md is unmodified as comes with the cloning of git. 
+This step is connects the local machine to the git repo and copies the 
+README.md file to the local machine.
+
+part b : The README.md is modified as it has been written to locally but 
+not added, and fun_problem.txt is still untracked by git, as git still 
+doesn't know it exists yet.
+
+part c : The README.md and fun_problem.txt are now both staged for git commit.
+
+part d : README.md and fun_problem.txt are both modified after the commit 
+(which sets them both to unmodified) and after the echo (which sets them to 
+modified). 
+
+part e : README.md is staged for commit after the add, and fun_problem.txt is 
+unmodified after checkout. The fun_problem.txt is now empty and holds no text 
+as the previous commit which it is checked out to was when fun_problem.txt was 
+still an empty txt file.
+
+part f : README.md is currently technically "modified", and the new additions 
+to README.md ("Fancy git move") are modified but not yet staged, so if there 
+is a commit of this file only the work up until the add will be committed.
+
+
+
+Problem 3
+1) A Map of Key int (for zipcode) to a value of type struct which contains 
+statistic members (such as voter turnout (int), double average, etc): 
+A map takes in a key of any (consistent) type and returns a value of any 
+(consistent) type in constant time, and so if given a zip code key int, it 
+will return the corresponding statistics struct value (perhaps type is a 
+struct "Statistics" with statistic members values) in constant time. Also 
+if the zipcodes are not strictly corresponded/ordered with known specific 
+indeces (which is not very practical), then each input of int zipcode would 
+retrieve the corresponding statistics struct in theta(1). This structure is 
+preferable because it does not require the key->value pairs to be ordered. 
+There is no need to maintain order when removing or inserting a key value 
+pair as well. Setting, getting, removing, and inserting are (theoretically) 
+constant times because the key can instantly locate the value, which is useful.
+
+2) A Set of struct "Student" which holds a student's information (such as 
+string name): 
+We would want to use a set here as a set would capture all unique students 
+in one place in no particular order. A set would be apt because each "solver" 
+is a separate, distinct person and because they are all presumably of the same 
+"type"--be it of struct student. More importantly, the order of the set does 
+not matter, so the insertion of another distinct solver of same type would be 
+a constant operation. Since we can assume that when a student has solved a 
+problem he/she cannot "unsolve" the problem, the remove operation would not 
+be necessary. We are modeling only one dimension of data type here, which is 
+what a set holds. Lists are ordered, which means that they are indexed, which 
+is not necessary to maintain for this case. Maps take a key-value pair 
+argument, but we only need one argument type as it can be contained in a 
+student class/struct. 
+
+3) An Array which matches the pokedex index to its corresponding array index 
+(the number within the array brackets), the array holds type struct which 
+holds Pokemon information as members(such as string name): 
+If we know the number of elements (pokemon), and that each number directly 
+corresponds to a distinct pokemon, an array of type Pokemon class (holding 
+all that pokemon's relevant data as members) would allow us to pass in the 
+integer pokedex index to the array and return the Pokemon class in constant 
+time. An array is ordered by index number and can access the value associated 
+with that index in constant time so it would be an appropriate data structure 
+for this pokemon case. Setting, getting, and adding are constant times because 
+the known index can instantly access the location. Removing is not necessary 
+in this case as presumably pokemon will not be removed from the game.
+
+4) Map of Key of Struct with members string movieName and int releaseYear, 
+Value being a vector (type string) of all reviews:
+If the key was a custom struct/object with movie name and release year as 
+data members (the combination of which is presumably distinct from all other 
+movies), the value could be of type vector which holds all of the reviews. 
+This key-value combination utilized by the map will return the reviews 
+vector in constant time given each distinct input of the struct which 
+contains movie name and release year members. Similarly to part 1, the data 
+structure does not have to be necessarily stored in an ordered manner with 
+the map data structure we have here, so there is no need to maintain order 
+when removing or inserting a key-value pair. The key with its data members 
+will give us a unique movie struct key which will give us its corresponding 
+vector of string reviews in constant time. Setting, getting, removing, and 
+inserting are (theoretically) constant times because the key can instantly 
+locate the value, which is practical. 
+
+
+
+Problem 4
+
+The resulting linked list will be <5,4,3,2,1>, or reverse order of the input. 
+
+When funcA is initially called with input of <1,2,3,4,5>, because its head 
+pointer (technically just "in") is not NULL, the empty case if statement will 
+not run; then a new empty linked list Node* out is created; since in->next is 
+not NULL (since the start of the list is not also the end, or since it is 
+not the only element in the list) the second if condition will pass, and 
+will assign "out" to funcA(<2,3,4,5>). 
+
+When funcA is called for this recursive round with linked list in being 
+<2,3,4,5>, this in similarly fails the first if statement (aka is not empty), 
+creates an empty linked list Node* out, and passes the if condition which 
+checks if the in list is not just one element; then out is assigned to 
+funcA(<3,4,5>). 
+
+Similarly to the previous two funcA(in) calls, funcA(<3,4,5>) will end up 
+assigning its out to be funcA(<4,5>).
+
+This called funcA(<4,5>) will similarly assign its out to be / call funcA(<5>).
+
+When funcA(<5>) is called, it fails the if which checks whether the list is 
+empty, creates an empty out linked list like all the funcA calls before it, 
+but--contrary to the previous funcA calls--FAILS the second if statement that 
+passes only if the list has more than one element, as this list is only one 
+element, 5; thus this funcA(<5>) call returns the single element linked list 
+of <5> (or the Node* pointer to its head). 
+
+Going one step back up the ladder in the funcA(<4,5>) call/scope where linked 
+list in is <4,5>, "out" now equals the funcA(<5>) result, which is the 
+one-element linked list <5>. FuncB(<4,5>, <5>) is now called. 
+funcB(<4,5>, <5>), with linked lists in1 = <4,5> and in2 = <5>, will 
+fail the if statement as in2 has only one element so its current head 
+Node's next will be NULL, so the in2->next = in1 line will make in2's 
+next point to in1's head Node, making in2 now <5,4,5>. Back in funcA, 
+the out will now be <5,4,5>. When in->next = NULL is called, this makes 
+in be <4> and effectively removes the last element 5 from the in list 
+(all instances of the in list henceofth, even in the scopes of previous 
+funcA calls because in is passed by reference as a pointer). Because out 
+points to in, out will now be changed to <5,4>. out = <5,4> is then the 
+returned linked list from the func(<4,5>) call.
+
+Going back another step back up the recursive ladder to the originally 
+"funcA(<3,4,5>)" call, the linked list "in" is actually now <3,4> because 
+the previous funcA call made the next value of the "4" Node equal to NULL, 
+and the out linked list is <5,4> from the previous call to funcA. We now 
+call funcB(<3,4>,<5,4>). in1 = <3,4>, and in2 = <5,4>. Because in2's head 
+node's next is not NULL (since more than one element in list), 
+funcB(<3,4>, <4>) is called. funcB(<3,4>, <4>) would fail the if statement 
+as in2 only has one element (aka in2->next = NULL) and would set 
+in2->next = in1, effectively making this in2 = <4,3,4> as in2's sole 
+element now points to all of in1's linked list. Back to the previous 
+funcB's scope, because it was passed by reference, out would now equal 
+<5,4,3,4>, the "3,4" part being that of linked list in. We then set 
+in->next = NULL, meaning that this in is now <3>, thus making this out 
+(which included in) = <5,4,3>. By making the in->next = NULL, we 
+effectively have made all instances of in now without its current last 
+element, 4. The returned out of this funcA call would be <5,4,3>.
+
+Another step back up the recursive ladder is the initially "funcA(<2,3,4,5>)" 
+call, the linked list in is now <2,3> after the previous funcA call set 3's 
+next equal to NULL (cutting off 4 from the list as it was passed by pointer),
+and the out from the previous funcA call would be <5,4,3>. The call to 
+funcB(<2,3>, <5,4,3>) essentially follows the same pattern as the funcB 
+calls of the previous paragraph; the initial call to funcB will call 
+funcB(<2,3>, <4,3>) because this in2 = <5,4,3> has more than one element, 
+and that funcB(<2,3>, <4,3>) will call funcB(<2,3>, <3>) for the same reason 
+that this in2 = <4,3> and is more than one element. funcB(<2,3>, <3>) will 
+result in the "3" Node's next value to point to the head of in1, which is 
+<2,3>. Thus the outcome of the funcB calls in the scope of the funcA call 
+is that the out is now changed to <5,4,3,2,3>, where the 2,3 part is the 
+current in. If we set in->next = NULL, then the head's (2) next (ptr to 3) 
+is now NULL, effectively cutting off 3 from all instances of in henceforth, 
+making in = <2> and out = <5,4,3,2>. The returned out of this funcA call 
+is <5,4,3,2>.
+
+Finally, back at the original "funcA(<1,2,3,4,5>)" call (whew), the linked 
+list "in" is now <1,2> after the 3 was lost to the previous funcA's call 
+setting of 2's next to be NULL, and the linked list "out" is now <5,4,3,2> 
+from the return value of the previous funcA call. For the funcB call 
+funcB(<1,2>,<5,4,3,2>), this funcB call (similar to the last paragraph), 
+calls funcB(<1,2>,<4,3,2>), which calls funcB(<1,2>,<3,2>), which calls 
+funcB(<1,2>,<2>) because all of their respective i2 linked lists were more 
+than one element long. The final funcB(<1,2>,<2>) call however, now has 
+one element in its i2 linked list, meaning that it FAILS the if statement 
+and thus makes in2->next = in1, essentially making the "2" Node's next value 
+now the head of in1. Navigating our way back to the scope of this funcA call, 
+this means that the last Node "2" of out now has its next pointer pointing to 
+the head of this in linked list, making the linked list out = <5,4,3,2,1,2>. 
+We then set in->next = NULL, effectively removing the Node "2" from all 
+instances of in from here on out and making this out be <5,4,3,2,1>. This 
+is the original (and in a way, final?) call to funcA, so the return value 
+of the original "funcA(<1,2,3,4,5>)" call would be the linked list <5,4,3,2,1>.

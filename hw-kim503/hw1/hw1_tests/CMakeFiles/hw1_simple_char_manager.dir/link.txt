@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw1_simple_char_manager.a  CMakeFiles/hw1_simple_char_manager.dir/home/cs104/cs104/hw-kim503/hw1/simpleCharManager.cpp.o
+/usr/bin/ranlib libhw1_simple_char_manager.a

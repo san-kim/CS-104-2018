@@ -1,0 +1,8 @@
+[ 50%] Built target kwsys
+[ 55%] Building CXX object CMakeFiles/q4_palindrome.dir/home/cs104/cs104/hw-kim503/hw1/palindrome.cpp.o
+[ 61%] Linking CXX executable q4_palindrome
+[ 61%] Built target q4_palindrome
+[ 88%] Built target testing_utils
+[ 94%] Building CXX object palindrome/CMakeFiles/palindrome_test.dir/palindrome_test.cpp.o
+[100%] Linking CXX executable palindrome_test
+[100%] Built target palindrome_test

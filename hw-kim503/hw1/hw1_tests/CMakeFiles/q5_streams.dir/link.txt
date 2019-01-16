@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g3 -O0   CMakeFiles/q5_streams.dir/home/cs104/cs104/hw-kim503/hw1/hw1q5.cpp.o  -o q5_streams 

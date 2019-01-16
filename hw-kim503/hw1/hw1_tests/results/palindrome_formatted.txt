@@ -1,0 +1,6 @@
+[PASS] [VPASS] Palindrome.Empty (1.248)
+[PASS] [VPASS] Palindrome.SingleChar (1.225)
+[PASS] [VPASS] Palindrome.PalindromeWordOddLength (1.244)
+[PASS] [VPASS] Palindrome.PalindromeWordEvenLength (1.215)
+[PASS] [VPASS] Palindrome.NonPalindromeWordOddLength (1.233)
+[PASS] [VPASS] Palindrome.NonPalindromeWordEvenLength (1.251)

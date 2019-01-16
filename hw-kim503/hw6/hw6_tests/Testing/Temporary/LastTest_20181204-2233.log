@@ -1,0 +1,1920 @@
+Start testing: Dec 04 14:33 PST
+----------------------------------------------------------
+1/48 Testing: Search.OneSquare
+1/48 Test: Search.OneSquare
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.OneSquare"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.OneSquare" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.OneSquare
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.OneSquare
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/OneSquare/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/OneSquare/output.txt
+[       OK ] Search.OneSquare (487 ms)
+[----------] 1 test from Search (487 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (487 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"Search.OneSquare" end time: Dec 04 14:33 PST
+"Search.OneSquare" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/48 Testing: Search.MicroHorizontal
+2/48 Test: Search.MicroHorizontal
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.MicroHorizontal"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.MicroHorizontal" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.MicroHorizontal
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.MicroHorizontal
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Micro/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Micro/output.txt
+[       OK ] Search.MicroHorizontal (506 ms)
+[----------] 1 test from Search (506 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (506 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"Search.MicroHorizontal" end time: Dec 04 14:33 PST
+"Search.MicroHorizontal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/48 Testing: Search.MicroVertical
+3/48 Test: Search.MicroVertical
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.MicroVertical"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.MicroVertical" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.MicroVertical
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.MicroVertical
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/MicroVertical/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/MicroVertical/output.txt
+[       OK ] Search.MicroVertical (504 ms)
+[----------] 1 test from Search (504 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (504 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"Search.MicroVertical" end time: Dec 04 14:33 PST
+"Search.MicroVertical" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/48 Testing: Search.Discontiguous
+4/48 Test: Search.Discontiguous
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.Discontiguous"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.Discontiguous" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Discontiguous
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Discontiguous
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Discontiguous/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Discontiguous/output.txt
+[       OK ] Search.Discontiguous (523 ms)
+[----------] 1 test from Search (523 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (523 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"Search.Discontiguous" end time: Dec 04 14:33 PST
+"Search.Discontiguous" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/48 Testing: Search.Ring
+5/48 Test: Search.Ring
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.Ring"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.Ring" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Ring
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Ring
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Ring/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Ring/output.txt
+[       OK ] Search.Ring (513 ms)
+[----------] 1 test from Search (513 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (513 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"Search.Ring" end time: Dec 04 14:33 PST
+"Search.Ring" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/48 Testing: Search.EqualSmallerCountries
+6/48 Test: Search.EqualSmallerCountries
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.EqualSmallerCountries"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.EqualSmallerCountries" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.EqualSmallerCountries
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.EqualSmallerCountries
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/EqualSmallerCountries/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/EqualSmallerCountries/output.txt
+[       OK ] Search.EqualSmallerCountries (511 ms)
+[----------] 1 test from Search (511 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (511 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"Search.EqualSmallerCountries" end time: Dec 04 14:33 PST
+"Search.EqualSmallerCountries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/48 Testing: Search.26Letters
+7/48 Test: Search.26Letters
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.26Letters"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.26Letters" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.26Letters
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.26Letters
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/26Letters/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/26Letters/output.txt
+[       OK ] Search.26Letters (515 ms)
+[----------] 1 test from Search (515 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (515 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"Search.26Letters" end time: Dec 04 14:33 PST
+"Search.26Letters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/48 Testing: Search.DiagonalCountries
+8/48 Test: Search.DiagonalCountries
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.DiagonalCountries"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.DiagonalCountries" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.DiagonalCountries
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.DiagonalCountries
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/DiagonalCountries/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/DiagonalCountries/output.txt
+[       OK ] Search.DiagonalCountries (486 ms)
+[----------] 1 test from Search (486 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (486 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"Search.DiagonalCountries" end time: Dec 04 14:33 PST
+"Search.DiagonalCountries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/48 Testing: Search.ProvidedMap
+9/48 Test: Search.ProvidedMap
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.ProvidedMap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.ProvidedMap" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.ProvidedMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.ProvidedMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/ProvidedMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/ProvidedMap/output.txt
+[       OK ] Search.ProvidedMap (508 ms)
+[----------] 1 test from Search (508 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (508 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"Search.ProvidedMap" end time: Dec 04 14:33 PST
+"Search.ProvidedMap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/48 Testing: Search.WindingRing
+10/48 Test: Search.WindingRing
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.WindingRing"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.WindingRing" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.WindingRing
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.WindingRing
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/WindingRing/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/WindingRing/output.txt
+[       OK ] Search.WindingRing (512 ms)
+[----------] 1 test from Search (512 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (512 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"Search.WindingRing" end time: Dec 04 14:33 PST
+"Search.WindingRing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/48 Testing: Search.Concentric
+11/48 Test: Search.Concentric
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.Concentric"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.Concentric" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Concentric
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Concentric
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Concentric/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Concentric/output.txt
+[       OK ] Search.Concentric (509 ms)
+[----------] 1 test from Search (509 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (509 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"Search.Concentric" end time: Dec 04 14:33 PST
+"Search.Concentric" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/48 Testing: Search.Checkerboard
+12/48 Test: Search.Checkerboard
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/search_test" "--gtest_filter=Search.Checkerboard"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests
+"Search.Checkerboard" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Checkerboard
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Checkerboard
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Checkerboard/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Checkerboard/output.txt
+[       OK ] Search.Checkerboard (531 ms)
+[----------] 1 test from Search (531 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (531 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"Search.Checkerboard" end time: Dec 04 14:33 PST
+"Search.Checkerboard" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/48 Testing: Coloring.OneCountry
+13/48 Test: Coloring.OneCountry
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.OneCountry"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.OneCountry" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.OneCountry
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.OneCountry
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/OneCountry/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/OneCountry/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.OneCountry (596 ms)
+[----------] 1 test from Coloring (596 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (596 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.OneCountry" end time: Dec 04 14:33 PST
+"Coloring.OneCountry" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/48 Testing: Coloring.SmallGivenMap
+14/48 Test: Coloring.SmallGivenMap
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.SmallGivenMap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.SmallGivenMap" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.SmallGivenMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.SmallGivenMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/SmallGivenMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/SmallGivenMap/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.SmallGivenMap (856 ms)
+[----------] 1 test from Coloring (856 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (856 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.SmallGivenMap" end time: Dec 04 14:33 PST
+"Coloring.SmallGivenMap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/48 Testing: Coloring.MediumGivenMap
+15/48 Test: Coloring.MediumGivenMap
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.MediumGivenMap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.MediumGivenMap" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.MediumGivenMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.MediumGivenMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MediumGivenMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MediumGivenMap/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.MediumGivenMap (546 ms)
+[----------] 1 test from Coloring (546 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (546 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.MediumGivenMap" end time: Dec 04 14:33 PST
+"Coloring.MediumGivenMap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/48 Testing: Coloring.LargeGivenMap
+16/48 Test: Coloring.LargeGivenMap
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.LargeGivenMap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.LargeGivenMap" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.LargeGivenMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.LargeGivenMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/LargeGivenMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/LargeGivenMap/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.LargeGivenMap (565 ms)
+[----------] 1 test from Coloring (565 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (565 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.LargeGivenMap" end time: Dec 04 14:33 PST
+"Coloring.LargeGivenMap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/48 Testing: Coloring.Backtracking1
+17/48 Test: Coloring.Backtracking1
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.Backtracking1"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.Backtracking1" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.Backtracking1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.Backtracking1
+This test is executing your program with the following command line: 
+/home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking1/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking1/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.Backtracking1 (2 ms)
+[----------] 1 test from Coloring (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.Backtracking1" end time: Dec 04 14:33 PST
+"Coloring.Backtracking1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/48 Testing: Coloring.Backtracking2
+18/48 Test: Coloring.Backtracking2
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.Backtracking2"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.Backtracking2" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.Backtracking2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.Backtracking2
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking2/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/Backtracking2/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.Backtracking2 (565 ms)
+[----------] 1 test from Coloring (565 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (565 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.Backtracking2" end time: Dec 04 14:33 PST
+"Coloring.Backtracking2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/48 Testing: Coloring.WikipediaExample
+19/48 Test: Coloring.WikipediaExample
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.WikipediaExample"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.WikipediaExample" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.WikipediaExample
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.WikipediaExample
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/WikipediaExample/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/WikipediaExample/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.WikipediaExample (578 ms)
+[----------] 1 test from Coloring (578 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (578 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.WikipediaExample" end time: Dec 04 14:33 PST
+"Coloring.WikipediaExample" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/48 Testing: Coloring.MaxLetters
+20/48 Test: Coloring.MaxLetters
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.MaxLetters"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.MaxLetters" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.MaxLetters
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.MaxLetters
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxLetters/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxLetters/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.MaxLetters (567 ms)
+[----------] 1 test from Coloring (567 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (567 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.MaxLetters" end time: Dec 04 14:33 PST
+"Coloring.MaxLetters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/48 Testing: Coloring.MaxSize
+21/48 Test: Coloring.MaxSize
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/coloring_test" "--gtest_filter=Coloring.MaxSize"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests
+"Coloring.MaxSize" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Coloring.MaxSize
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Coloring
+[ RUN      ] Coloring.MaxSize
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/coloring /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxSize/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/coloring_tests/testFiles/MaxSize/output.txt
+Test suite: all coloring solutions validated!
+[       OK ] Coloring.MaxSize (595 ms)
+[----------] 1 test from Coloring (595 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (595 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"Coloring.MaxSize" end time: Dec 04 14:33 PST
+"Coloring.MaxSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/48 Testing: HeapTest.ConstructionDestruction
+22/48 Test: HeapTest.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ConstructionDestruction"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ConstructionDestruction" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+==21006== Memcheck, a memory error detector
+==21006== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21006== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21006== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ConstructionDestruction
+==21006== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ConstructionDestruction
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ConstructionDestruction
+[       OK ] HeapTest.ConstructionDestruction (6 ms)
+[----------] 1 test from HeapTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (33 ms total)
+[  PASSED  ] 1 test.
+==21006== 
+==21006== HEAP SUMMARY:
+==21006==     in use at exit: 72,704 bytes in 1 blocks
+==21006==   total heap usage: 356 allocs, 355 frees, 130,867 bytes allocated
+==21006== 
+==21006== LEAK SUMMARY:
+==21006==    definitely lost: 0 bytes in 0 blocks
+==21006==    indirectly lost: 0 bytes in 0 blocks
+==21006==      possibly lost: 0 bytes in 0 blocks
+==21006==    still reachable: 0 bytes in 0 blocks
+==21006==         suppressed: 72,704 bytes in 1 blocks
+==21006== 
+==21006== For counts of detected and suppressed errors, rerun with: -v
+==21006== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ConstructionDestruction" end time: Dec 04 14:33 PST
+"HeapTest.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/48 Testing: HeapTest.InitiallyEmpty
+23/48 Test: HeapTest.InitiallyEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.InitiallyEmpty"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.InitiallyEmpty" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+==21007== Memcheck, a memory error detector
+==21007== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21007== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21007== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.InitiallyEmpty
+==21007== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.InitiallyEmpty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.InitiallyEmpty
+[       OK ] HeapTest.InitiallyEmpty (7 ms)
+[----------] 1 test from HeapTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (32 ms total)
+[  PASSED  ] 1 test.
+==21007== 
+==21007== HEAP SUMMARY:
+==21007==     in use at exit: 72,704 bytes in 1 blocks
+==21007==   total heap usage: 356 allocs, 355 frees, 130,752 bytes allocated
+==21007== 
+==21007== LEAK SUMMARY:
+==21007==    definitely lost: 0 bytes in 0 blocks
+==21007==    indirectly lost: 0 bytes in 0 blocks
+==21007==      possibly lost: 0 bytes in 0 blocks
+==21007==    still reachable: 0 bytes in 0 blocks
+==21007==         suppressed: 72,704 bytes in 1 blocks
+==21007== 
+==21007== For counts of detected and suppressed errors, rerun with: -v
+==21007== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.InitiallyEmpty" end time: Dec 04 14:33 PST
+"HeapTest.InitiallyEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/48 Testing: HeapTest.EmptyPeekException
+24/48 Test: HeapTest.EmptyPeekException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.EmptyPeekException"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.EmptyPeekException" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+==21008== Memcheck, a memory error detector
+==21008== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21008== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21008== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.EmptyPeekException
+==21008== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyPeekException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyPeekException
+[       OK ] HeapTest.EmptyPeekException (32 ms)
+[----------] 1 test from HeapTest (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (59 ms total)
+[  PASSED  ] 1 test.
+==21008== 
+==21008== HEAP SUMMARY:
+==21008==     in use at exit: 72,704 bytes in 1 blocks
+==21008==   total heap usage: 358 allocs, 357 frees, 130,962 bytes allocated
+==21008== 
+==21008== LEAK SUMMARY:
+==21008==    definitely lost: 0 bytes in 0 blocks
+==21008==    indirectly lost: 0 bytes in 0 blocks
+==21008==      possibly lost: 0 bytes in 0 blocks
+==21008==    still reachable: 0 bytes in 0 blocks
+==21008==         suppressed: 72,704 bytes in 1 blocks
+==21008== 
+==21008== For counts of detected and suppressed errors, rerun with: -v
+==21008== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyPeekException" end time: Dec 04 14:33 PST
+"HeapTest.EmptyPeekException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/48 Testing: HeapTest.EmptyRemoveException
+25/48 Test: HeapTest.EmptyRemoveException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.EmptyRemoveException"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.EmptyRemoveException" start time: Dec 04 14:33 PST
+Output:
+----------------------------------------------------------
+==21009== Memcheck, a memory error detector
+==21009== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21009== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21009== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.EmptyRemoveException
+==21009== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyRemoveException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyRemoveException
+[       OK ] HeapTest.EmptyRemoveException (32 ms)
+[----------] 1 test from HeapTest (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (61 ms total)
+[  PASSED  ] 1 test.
+==21009== 
+==21009== HEAP SUMMARY:
+==21009==     in use at exit: 72,704 bytes in 1 blocks
+==21009==   total heap usage: 358 allocs, 357 frees, 130,976 bytes allocated
+==21009== 
+==21009== LEAK SUMMARY:
+==21009==    definitely lost: 0 bytes in 0 blocks
+==21009==    indirectly lost: 0 bytes in 0 blocks
+==21009==      possibly lost: 0 bytes in 0 blocks
+==21009==    still reachable: 0 bytes in 0 blocks
+==21009==         suppressed: 72,704 bytes in 1 blocks
+==21009== 
+==21009== For counts of detected and suppressed errors, rerun with: -v
+==21009== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyRemoveException" end time: Dec 04 14:34 PST
+"HeapTest.EmptyRemoveException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/48 Testing: HeapTest.SingleItemNonempty
+26/48 Test: HeapTest.SingleItemNonempty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.SingleItemNonempty"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.SingleItemNonempty" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21010== Memcheck, a memory error detector
+==21010== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21010== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21010== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.SingleItemNonempty
+==21010== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemNonempty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemNonempty
+[       OK ] HeapTest.SingleItemNonempty (14 ms)
+[----------] 1 test from HeapTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (43 ms total)
+[  PASSED  ] 1 test.
+==21010== 
+==21010== HEAP SUMMARY:
+==21010==     in use at exit: 72,704 bytes in 1 blocks
+==21010==   total heap usage: 357 allocs, 356 frees, 130,788 bytes allocated
+==21010== 
+==21010== LEAK SUMMARY:
+==21010==    definitely lost: 0 bytes in 0 blocks
+==21010==    indirectly lost: 0 bytes in 0 blocks
+==21010==      possibly lost: 0 bytes in 0 blocks
+==21010==    still reachable: 0 bytes in 0 blocks
+==21010==         suppressed: 72,704 bytes in 1 blocks
+==21010== 
+==21010== For counts of detected and suppressed errors, rerun with: -v
+==21010== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemNonempty" end time: Dec 04 14:34 PST
+"HeapTest.SingleItemNonempty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/48 Testing: HeapTest.SingleItemPush
+27/48 Test: HeapTest.SingleItemPush
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.SingleItemPush"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.SingleItemPush" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21011== Memcheck, a memory error detector
+==21011== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21011== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21011== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.SingleItemPush
+==21011== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPush
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPush
+[       OK ] HeapTest.SingleItemPush (13 ms)
+[----------] 1 test from HeapTest (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (39 ms total)
+[  PASSED  ] 1 test.
+==21011== 
+==21011== HEAP SUMMARY:
+==21011==     in use at exit: 72,704 bytes in 1 blocks
+==21011==   total heap usage: 357 allocs, 356 frees, 130,760 bytes allocated
+==21011== 
+==21011== LEAK SUMMARY:
+==21011==    definitely lost: 0 bytes in 0 blocks
+==21011==    indirectly lost: 0 bytes in 0 blocks
+==21011==      possibly lost: 0 bytes in 0 blocks
+==21011==    still reachable: 0 bytes in 0 blocks
+==21011==         suppressed: 72,704 bytes in 1 blocks
+==21011== 
+==21011== For counts of detected and suppressed errors, rerun with: -v
+==21011== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPush" end time: Dec 04 14:34 PST
+"HeapTest.SingleItemPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/48 Testing: HeapTest.SingleItemPushPop
+28/48 Test: HeapTest.SingleItemPushPop
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.SingleItemPushPop"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.SingleItemPushPop" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21012== Memcheck, a memory error detector
+==21012== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21012== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21012== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.SingleItemPushPop
+==21012== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPushPop
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPushPop
+[       OK ] HeapTest.SingleItemPushPop (15 ms)
+[----------] 1 test from HeapTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (39 ms total)
+[  PASSED  ] 1 test.
+==21012== 
+==21012== HEAP SUMMARY:
+==21012==     in use at exit: 72,704 bytes in 1 blocks
+==21012==   total heap usage: 357 allocs, 356 frees, 130,781 bytes allocated
+==21012== 
+==21012== LEAK SUMMARY:
+==21012==    definitely lost: 0 bytes in 0 blocks
+==21012==    indirectly lost: 0 bytes in 0 blocks
+==21012==      possibly lost: 0 bytes in 0 blocks
+==21012==    still reachable: 0 bytes in 0 blocks
+==21012==         suppressed: 72,704 bytes in 1 blocks
+==21012== 
+==21012== For counts of detected and suppressed errors, rerun with: -v
+==21012== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPushPop" end time: Dec 04 14:34 PST
+"HeapTest.SingleItemPushPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/48 Testing: HeapTest.TwoElementPush_LowPriFirst
+29/48 Test: HeapTest.TwoElementPush_LowPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.TwoElementPush_LowPriFirst" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21013== Memcheck, a memory error detector
+==21013== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21013== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21013== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.TwoElementPush_LowPriFirst
+==21013== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_LowPriFirst
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_LowPriFirst
+[       OK ] HeapTest.TwoElementPush_LowPriFirst (19 ms)
+[----------] 1 test from HeapTest (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (45 ms total)
+[  PASSED  ] 1 test.
+==21013== 
+==21013== HEAP SUMMARY:
+==21013==     in use at exit: 72,704 bytes in 1 blocks
+==21013==   total heap usage: 358 allocs, 357 frees, 130,990 bytes allocated
+==21013== 
+==21013== LEAK SUMMARY:
+==21013==    definitely lost: 0 bytes in 0 blocks
+==21013==    indirectly lost: 0 bytes in 0 blocks
+==21013==      possibly lost: 0 bytes in 0 blocks
+==21013==    still reachable: 0 bytes in 0 blocks
+==21013==         suppressed: 72,704 bytes in 1 blocks
+==21013== 
+==21013== For counts of detected and suppressed errors, rerun with: -v
+==21013== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_LowPriFirst" end time: Dec 04 14:34 PST
+"HeapTest.TwoElementPush_LowPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/48 Testing: HeapTest.TwoElementPush_HighPriFirst
+30/48 Test: HeapTest.TwoElementPush_HighPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.TwoElementPush_HighPriFirst" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21014== Memcheck, a memory error detector
+==21014== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21014== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21014== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.TwoElementPush_HighPriFirst
+==21014== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_HighPriFirst
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_HighPriFirst
+[       OK ] HeapTest.TwoElementPush_HighPriFirst (20 ms)
+[----------] 1 test from HeapTest (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==21014== 
+==21014== HEAP SUMMARY:
+==21014==     in use at exit: 72,704 bytes in 1 blocks
+==21014==   total heap usage: 358 allocs, 357 frees, 131,023 bytes allocated
+==21014== 
+==21014== LEAK SUMMARY:
+==21014==    definitely lost: 0 bytes in 0 blocks
+==21014==    indirectly lost: 0 bytes in 0 blocks
+==21014==      possibly lost: 0 bytes in 0 blocks
+==21014==    still reachable: 0 bytes in 0 blocks
+==21014==         suppressed: 72,704 bytes in 1 blocks
+==21014== 
+==21014== For counts of detected and suppressed errors, rerun with: -v
+==21014== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_HighPriFirst" end time: Dec 04 14:34 PST
+"HeapTest.TwoElementPush_HighPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/48 Testing: HeapTest.TwoElementsSamePriority
+31/48 Test: HeapTest.TwoElementsSamePriority
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.TwoElementsSamePriority"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.TwoElementsSamePriority" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21015== Memcheck, a memory error detector
+==21015== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21015== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21015== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.TwoElementsSamePriority
+==21015== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementsSamePriority
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementsSamePriority
+[       OK ] HeapTest.TwoElementsSamePriority (13 ms)
+[----------] 1 test from HeapTest (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (38 ms total)
+[  PASSED  ] 1 test.
+==21015== 
+==21015== HEAP SUMMARY:
+==21015==     in use at exit: 72,704 bytes in 1 blocks
+==21015==   total heap usage: 358 allocs, 357 frees, 130,891 bytes allocated
+==21015== 
+==21015== LEAK SUMMARY:
+==21015==    definitely lost: 0 bytes in 0 blocks
+==21015==    indirectly lost: 0 bytes in 0 blocks
+==21015==      possibly lost: 0 bytes in 0 blocks
+==21015==    still reachable: 0 bytes in 0 blocks
+==21015==         suppressed: 72,704 bytes in 1 blocks
+==21015== 
+==21015== For counts of detected and suppressed errors, rerun with: -v
+==21015== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementsSamePriority" end time: Dec 04 14:34 PST
+"HeapTest.TwoElementsSamePriority" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/48 Testing: HeapTest.NegativePriorities
+32/48 Test: HeapTest.NegativePriorities
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.NegativePriorities"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.NegativePriorities" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21016== Memcheck, a memory error detector
+==21016== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21016== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21016== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.NegativePriorities
+==21016== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.NegativePriorities
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.NegativePriorities
+[       OK ] HeapTest.NegativePriorities (18 ms)
+[----------] 1 test from HeapTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==21016== 
+==21016== HEAP SUMMARY:
+==21016==     in use at exit: 72,704 bytes in 1 blocks
+==21016==   total heap usage: 358 allocs, 357 frees, 130,804 bytes allocated
+==21016== 
+==21016== LEAK SUMMARY:
+==21016==    definitely lost: 0 bytes in 0 blocks
+==21016==    indirectly lost: 0 bytes in 0 blocks
+==21016==      possibly lost: 0 bytes in 0 blocks
+==21016==    still reachable: 0 bytes in 0 blocks
+==21016==         suppressed: 72,704 bytes in 1 blocks
+==21016== 
+==21016== For counts of detected and suppressed errors, rerun with: -v
+==21016== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.NegativePriorities" end time: Dec 04 14:34 PST
+"HeapTest.NegativePriorities" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/48 Testing: HeapTest.ThreeElementPush_10_20_30
+33/48 Test: HeapTest.ThreeElementPush_10_20_30
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_10_20_30"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_10_20_30" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21017== Memcheck, a memory error detector
+==21017== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21017== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21017== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_10_20_30
+==21017== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_20_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_20_30
+[       OK ] HeapTest.ThreeElementPush_10_20_30 (21 ms)
+[----------] 1 test from HeapTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==21017== 
+==21017== HEAP SUMMARY:
+==21017==     in use at exit: 72,704 bytes in 1 blocks
+==21017==   total heap usage: 359 allocs, 358 frees, 130,989 bytes allocated
+==21017== 
+==21017== LEAK SUMMARY:
+==21017==    definitely lost: 0 bytes in 0 blocks
+==21017==    indirectly lost: 0 bytes in 0 blocks
+==21017==      possibly lost: 0 bytes in 0 blocks
+==21017==    still reachable: 0 bytes in 0 blocks
+==21017==         suppressed: 72,704 bytes in 1 blocks
+==21017== 
+==21017== For counts of detected and suppressed errors, rerun with: -v
+==21017== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_20_30" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_10_20_30" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/48 Testing: HeapTest.ThreeElementPush_10_30_20
+34/48 Test: HeapTest.ThreeElementPush_10_30_20
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_10_30_20"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_10_30_20" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21018== Memcheck, a memory error detector
+==21018== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21018== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21018== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_10_30_20
+==21018== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_30_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_30_20
+[       OK ] HeapTest.ThreeElementPush_10_30_20 (19 ms)
+[----------] 1 test from HeapTest (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (45 ms total)
+[  PASSED  ] 1 test.
+==21018== 
+==21018== HEAP SUMMARY:
+==21018==     in use at exit: 72,704 bytes in 1 blocks
+==21018==   total heap usage: 359 allocs, 358 frees, 130,989 bytes allocated
+==21018== 
+==21018== LEAK SUMMARY:
+==21018==    definitely lost: 0 bytes in 0 blocks
+==21018==    indirectly lost: 0 bytes in 0 blocks
+==21018==      possibly lost: 0 bytes in 0 blocks
+==21018==    still reachable: 0 bytes in 0 blocks
+==21018==         suppressed: 72,704 bytes in 1 blocks
+==21018== 
+==21018== For counts of detected and suppressed errors, rerun with: -v
+==21018== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_30_20" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_10_30_20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/48 Testing: HeapTest.ThreeElementPush_20_10_30
+35/48 Test: HeapTest.ThreeElementPush_20_10_30
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_20_10_30"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_20_10_30" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21019== Memcheck, a memory error detector
+==21019== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21019== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21019== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_20_10_30
+==21019== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_20_10_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_20_10_30
+[       OK ] HeapTest.ThreeElementPush_20_10_30 (22 ms)
+[----------] 1 test from HeapTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (51 ms total)
+[  PASSED  ] 1 test.
+==21019== 
+==21019== HEAP SUMMARY:
+==21019==     in use at exit: 72,704 bytes in 1 blocks
+==21019==   total heap usage: 359 allocs, 358 frees, 130,989 bytes allocated
+==21019== 
+==21019== LEAK SUMMARY:
+==21019==    definitely lost: 0 bytes in 0 blocks
+==21019==    indirectly lost: 0 bytes in 0 blocks
+==21019==      possibly lost: 0 bytes in 0 blocks
+==21019==    still reachable: 0 bytes in 0 blocks
+==21019==         suppressed: 72,704 bytes in 1 blocks
+==21019== 
+==21019== For counts of detected and suppressed errors, rerun with: -v
+==21019== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_20_10_30" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_20_10_30" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/48 Testing: HeapTest.ThreeElementPush_20_30_10
+36/48 Test: HeapTest.ThreeElementPush_20_30_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_20_30_10"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_20_30_10" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21020== Memcheck, a memory error detector
+==21020== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21020== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21020== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_20_30_10
+==21020== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_20_30_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_20_30_10
+[       OK ] HeapTest.ThreeElementPush_20_30_10 (21 ms)
+[----------] 1 test from HeapTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==21020== 
+==21020== HEAP SUMMARY:
+==21020==     in use at exit: 72,704 bytes in 1 blocks
+==21020==   total heap usage: 359 allocs, 358 frees, 130,989 bytes allocated
+==21020== 
+==21020== LEAK SUMMARY:
+==21020==    definitely lost: 0 bytes in 0 blocks
+==21020==    indirectly lost: 0 bytes in 0 blocks
+==21020==      possibly lost: 0 bytes in 0 blocks
+==21020==    still reachable: 0 bytes in 0 blocks
+==21020==         suppressed: 72,704 bytes in 1 blocks
+==21020== 
+==21020== For counts of detected and suppressed errors, rerun with: -v
+==21020== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_20_30_10" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_20_30_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/48 Testing: HeapTest.ThreeElementPush_30_10_20
+37/48 Test: HeapTest.ThreeElementPush_30_10_20
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_30_10_20"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_30_10_20" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21021== Memcheck, a memory error detector
+==21021== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21021== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21021== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_30_10_20
+==21021== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_30_10_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_30_10_20
+[       OK ] HeapTest.ThreeElementPush_30_10_20 (21 ms)
+[----------] 1 test from HeapTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==21021== 
+==21021== HEAP SUMMARY:
+==21021==     in use at exit: 72,704 bytes in 1 blocks
+==21021==   total heap usage: 359 allocs, 358 frees, 130,989 bytes allocated
+==21021== 
+==21021== LEAK SUMMARY:
+==21021==    definitely lost: 0 bytes in 0 blocks
+==21021==    indirectly lost: 0 bytes in 0 blocks
+==21021==      possibly lost: 0 bytes in 0 blocks
+==21021==    still reachable: 0 bytes in 0 blocks
+==21021==         suppressed: 72,704 bytes in 1 blocks
+==21021== 
+==21021== For counts of detected and suppressed errors, rerun with: -v
+==21021== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_30_10_20" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_30_10_20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/48 Testing: HeapTest.ThreeElementPush_30_20_10
+38/48 Test: HeapTest.ThreeElementPush_30_20_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_30_20_10"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_30_20_10" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21022== Memcheck, a memory error detector
+==21022== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21022== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21022== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_30_20_10
+==21022== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_30_20_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_30_20_10
+[       OK ] HeapTest.ThreeElementPush_30_20_10 (21 ms)
+[----------] 1 test from HeapTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==21022== 
+==21022== HEAP SUMMARY:
+==21022==     in use at exit: 72,704 bytes in 1 blocks
+==21022==   total heap usage: 359 allocs, 358 frees, 130,989 bytes allocated
+==21022== 
+==21022== LEAK SUMMARY:
+==21022==    definitely lost: 0 bytes in 0 blocks
+==21022==    indirectly lost: 0 bytes in 0 blocks
+==21022==      possibly lost: 0 bytes in 0 blocks
+==21022==    still reachable: 0 bytes in 0 blocks
+==21022==         suppressed: 72,704 bytes in 1 blocks
+==21022== 
+==21022== For counts of detected and suppressed errors, rerun with: -v
+==21022== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_30_20_10" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_30_20_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/48 Testing: HeapTest.StringStorage
+39/48 Test: HeapTest.StringStorage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.StringStorage"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.StringStorage" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21023== Memcheck, a memory error detector
+==21023== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21023== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21023== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.StringStorage
+==21023== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.StringStorage
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.StringStorage
+[       OK ] HeapTest.StringStorage (26 ms)
+[----------] 1 test from HeapTest (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (58 ms total)
+[  PASSED  ] 1 test.
+==21023== 
+==21023== HEAP SUMMARY:
+==21023==     in use at exit: 72,704 bytes in 1 blocks
+==21023==   total heap usage: 359 allocs, 358 frees, 131,025 bytes allocated
+==21023== 
+==21023== LEAK SUMMARY:
+==21023==    definitely lost: 0 bytes in 0 blocks
+==21023==    indirectly lost: 0 bytes in 0 blocks
+==21023==      possibly lost: 0 bytes in 0 blocks
+==21023==    still reachable: 0 bytes in 0 blocks
+==21023==         suppressed: 72,704 bytes in 1 blocks
+==21023== 
+==21023== For counts of detected and suppressed errors, rerun with: -v
+==21023== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.StringStorage" end time: Dec 04 14:34 PST
+"HeapTest.StringStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/48 Testing: HeapTest.ThreeElementPush_TrinaryHeap
+40/48 Test: HeapTest.ThreeElementPush_TrinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_TrinaryHeap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_TrinaryHeap" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21024== Memcheck, a memory error detector
+==21024== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21024== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21024== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_TrinaryHeap
+==21024== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_TrinaryHeap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_TrinaryHeap
+[       OK ] HeapTest.ThreeElementPush_TrinaryHeap (26 ms)
+[----------] 1 test from HeapTest (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==21024== 
+==21024== HEAP SUMMARY:
+==21024==     in use at exit: 72,704 bytes in 1 blocks
+==21024==   total heap usage: 359 allocs, 358 frees, 131,088 bytes allocated
+==21024== 
+==21024== LEAK SUMMARY:
+==21024==    definitely lost: 0 bytes in 0 blocks
+==21024==    indirectly lost: 0 bytes in 0 blocks
+==21024==      possibly lost: 0 bytes in 0 blocks
+==21024==    still reachable: 0 bytes in 0 blocks
+==21024==         suppressed: 72,704 bytes in 1 blocks
+==21024== 
+==21024== For counts of detected and suppressed errors, rerun with: -v
+==21024== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_TrinaryHeap" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_TrinaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/48 Testing: HeapTest.ThreeElementPush_QuaternaryHeap
+41/48 Test: HeapTest.ThreeElementPush_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapTest.ThreeElementPush_QuaternaryHeap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapTest.ThreeElementPush_QuaternaryHeap" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21025== Memcheck, a memory error detector
+==21025== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21025== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21025== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapTest.ThreeElementPush_QuaternaryHeap
+==21025== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_QuaternaryHeap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_QuaternaryHeap
+[       OK ] HeapTest.ThreeElementPush_QuaternaryHeap (21 ms)
+[----------] 1 test from HeapTest (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==21025== 
+==21025== HEAP SUMMARY:
+==21025==     in use at exit: 72,704 bytes in 1 blocks
+==21025==   total heap usage: 359 allocs, 358 frees, 131,187 bytes allocated
+==21025== 
+==21025== LEAK SUMMARY:
+==21025==    definitely lost: 0 bytes in 0 blocks
+==21025==    indirectly lost: 0 bytes in 0 blocks
+==21025==      possibly lost: 0 bytes in 0 blocks
+==21025==    still reachable: 0 bytes in 0 blocks
+==21025==         suppressed: 72,704 bytes in 1 blocks
+==21025== 
+==21025== For counts of detected and suppressed errors, rerun with: -v
+==21025== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_QuaternaryHeap" end time: Dec 04 14:34 PST
+"HeapTest.ThreeElementPush_QuaternaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/48 Testing: HeapStress.50x50RandomElements_BinaryHeap
+42/48 Test: HeapStress.50x50RandomElements_BinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapStress.50x50RandomElements_BinaryHeap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapStress.50x50RandomElements_BinaryHeap" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21026== Memcheck, a memory error detector
+==21026== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21026== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21026== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapStress.50x50RandomElements_BinaryHeap
+==21026== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_BinaryHeap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_BinaryHeap
+[       OK ] HeapStress.50x50RandomElements_BinaryHeap (164 ms)
+[----------] 1 test from HeapStress (171 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (196 ms total)
+[  PASSED  ] 1 test.
+==21026== 
+==21026== HEAP SUMMARY:
+==21026==     in use at exit: 72,704 bytes in 1 blocks
+==21026==   total heap usage: 857 allocs, 856 frees, 204,156 bytes allocated
+==21026== 
+==21026== LEAK SUMMARY:
+==21026==    definitely lost: 0 bytes in 0 blocks
+==21026==    indirectly lost: 0 bytes in 0 blocks
+==21026==      possibly lost: 0 bytes in 0 blocks
+==21026==    still reachable: 0 bytes in 0 blocks
+==21026==         suppressed: 72,704 bytes in 1 blocks
+==21026== 
+==21026== For counts of detected and suppressed errors, rerun with: -v
+==21026== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.50x50RandomElements_BinaryHeap" end time: Dec 04 14:34 PST
+"HeapStress.50x50RandomElements_BinaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/48 Testing: HeapStress.50x50RandomElements_QuaternaryHeap
+43/48 Test: HeapStress.50x50RandomElements_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapStress.50x50RandomElements_QuaternaryHeap" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21027== Memcheck, a memory error detector
+==21027== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21027== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21027== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap
+==21027== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_QuaternaryHeap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_QuaternaryHeap
+[       OK ] HeapStress.50x50RandomElements_QuaternaryHeap (160 ms)
+[----------] 1 test from HeapStress (164 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (187 ms total)
+[  PASSED  ] 1 test.
+==21027== 
+==21027== HEAP SUMMARY:
+==21027==     in use at exit: 72,704 bytes in 1 blocks
+==21027==   total heap usage: 857 allocs, 856 frees, 204,288 bytes allocated
+==21027== 
+==21027== LEAK SUMMARY:
+==21027==    definitely lost: 0 bytes in 0 blocks
+==21027==    indirectly lost: 0 bytes in 0 blocks
+==21027==      possibly lost: 0 bytes in 0 blocks
+==21027==    still reachable: 0 bytes in 0 blocks
+==21027==         suppressed: 72,704 bytes in 1 blocks
+==21027== 
+==21027== For counts of detected and suppressed errors, rerun with: -v
+==21027== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.50x50RandomElements_QuaternaryHeap" end time: Dec 04 14:34 PST
+"HeapStress.50x50RandomElements_QuaternaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/48 Testing: HeapStress.50x50RandomElements_DodecenaryHeap
+44/48 Test: HeapStress.50x50RandomElements_DodecenaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapStress.50x50RandomElements_DodecenaryHeap" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21028== Memcheck, a memory error detector
+==21028== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21028== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21028== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap
+==21028== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_DodecenaryHeap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_DodecenaryHeap
+[       OK ] HeapStress.50x50RandomElements_DodecenaryHeap (152 ms)
+[----------] 1 test from HeapStress (158 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (179 ms total)
+[  PASSED  ] 1 test.
+==21028== 
+==21028== HEAP SUMMARY:
+==21028==     in use at exit: 72,704 bytes in 1 blocks
+==21028==   total heap usage: 857 allocs, 856 frees, 204,288 bytes allocated
+==21028== 
+==21028== LEAK SUMMARY:
+==21028==    definitely lost: 0 bytes in 0 blocks
+==21028==    indirectly lost: 0 bytes in 0 blocks
+==21028==      possibly lost: 0 bytes in 0 blocks
+==21028==    still reachable: 0 bytes in 0 blocks
+==21028==         suppressed: 72,704 bytes in 1 blocks
+==21028== 
+==21028== For counts of detected and suppressed errors, rerun with: -v
+==21028== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.75 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.50x50RandomElements_DodecenaryHeap" end time: Dec 04 14:34 PST
+"HeapStress.50x50RandomElements_DodecenaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/48 Testing: HeapStress.2x10000RandomElements_Binary
+45/48 Test: HeapStress.2x10000RandomElements_Binary
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test" "--gtest_filter=HeapStress.2x10000RandomElements_Binary"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapStress.2x10000RandomElements_Binary" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+==21029== Memcheck, a memory error detector
+==21029== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21029== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21029== Command: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_test --gtest_filter=HeapStress.2x10000RandomElements_Binary
+==21029== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapStress.2x10000RandomElements_Binary
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.2x10000RandomElements_Binary
+[       OK ] HeapStress.2x10000RandomElements_Binary (834 ms)
+[----------] 1 test from HeapStress (839 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (860 ms total)
+[  PASSED  ] 1 test.
+==21029== 
+==21029== HEAP SUMMARY:
+==21029==     in use at exit: 72,704 bytes in 1 blocks
+==21029==   total heap usage: 393 allocs, 392 frees, 815,450 bytes allocated
+==21029== 
+==21029== LEAK SUMMARY:
+==21029==    definitely lost: 0 bytes in 0 blocks
+==21029==    indirectly lost: 0 bytes in 0 blocks
+==21029==      possibly lost: 0 bytes in 0 blocks
+==21029==    still reachable: 0 bytes in 0 blocks
+==21029==         suppressed: 72,704 bytes in 1 blocks
+==21029== 
+==21029== For counts of detected and suppressed errors, rerun with: -v
+==21029== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.42 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.2x10000RandomElements_Binary" end time: Dec 04 14:34 PST
+"HeapStress.2x10000RandomElements_Binary" time elapsed: 00:00:01
+----------------------------------------------------------
+
+46/48 Testing: HeapRuntime.Add
+46/48 Test: HeapRuntime.Add
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_runtime_test" "--gtest_filter=HeapRuntime.Add"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapRuntime.Add" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapRuntime.Add
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapRuntime
+[ RUN      ] HeapRuntime.Add
+>> Evaluating runtime of MinHeap::add() with d=2
+Testing with 2^1 (2) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^2 (4) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^3 (8) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^4 (16) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^5 (32) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^6 (64) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^7 (128) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^8 (256) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^9 (512) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^10 (1024) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^11 (2048) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^12 (4096) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^13 (8192) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^14 (16384) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^15 (32768) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^16 (65536) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^17 (131072) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing if time complexity could be linear...
+Correlation factor (0.1591) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.4447) is >= threshold (1.4000)
+>> Time complexity of MinHeap::add() with d=2 is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.7154) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3692) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0661) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0441) is < threshold (1.4000)
+[       OK ] HeapRuntime.Add (563 ms)
+[----------] 1 test from HeapRuntime (563 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (563 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"HeapRuntime.Add" end time: Dec 04 14:34 PST
+"HeapRuntime.Add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/48 Testing: HeapRuntime.Peek
+47/48 Test: HeapRuntime.Peek
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_runtime_test" "--gtest_filter=HeapRuntime.Peek"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapRuntime.Peek" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapRuntime.Peek
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapRuntime
+[ RUN      ] HeapRuntime.Peek
+>> Evaluating runtime of MinHeap::peek() with d=2
+Testing with 2^1 (2) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^2 (4) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^3 (8) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^4 (16) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^5 (32) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^6 (64) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^7 (128) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^8 (256) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^9 (512) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^10 (1024) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^11 (2048) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^12 (4096) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^13 (8192) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^14 (16384) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^15 (32768) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^16 (65536) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^17 (131072) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing if time complexity could be linear...
+Correlation factor (0.0941) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.9684) is >= threshold (1.4000)
+>> Time complexity of MinHeap::peek() with d=2 is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.3200) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3967) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0421) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0209) is < threshold (1.4000)
+[       OK ] HeapRuntime.Peek (594 ms)
+[----------] 1 test from HeapRuntime (594 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (594 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapRuntime.Peek" end time: Dec 04 14:34 PST
+"HeapRuntime.Peek" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/48 Testing: HeapRuntime.Remove
+48/48 Test: HeapRuntime.Remove
+Command: "/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_runtime_test" "--gtest_filter=HeapRuntime.Remove"
+Directory: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests
+"HeapRuntime.Remove" start time: Dec 04 14:34 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapRuntime.Remove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapRuntime
+[ RUN      ] HeapRuntime.Remove
+>> Evaluating runtime of MinHeap::remove() with d=2
+Testing with 2^1 (2) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^2 (4) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^3 (8) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^4 (16) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^5 (32) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^6 (64) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^7 (128) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^8 (256) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^9 (512) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^10 (1024) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^11 (2048) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^12 (4096) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^13 (8192) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^14 (16384) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^15 (32768) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^16 (65536) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing with 2^17 (131072) elements (trial 1/40)2/40)3/40)4/40)5/40)6/40)7/40)8/40)9/40)10/40)11/40)12/40)13/40)14/40)15/40)16/40)17/40)18/40)19/40)20/40)21/40)22/40)23/40)24/40)25/40)26/40)27/40)28/40)29/40)30/40)31/40)32/40)33/40)34/40)35/40)36/40)37/40)38/40)39/40)40/40)
+Testing if time complexity could be linear...
+Correlation factor (0.2050) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.4534) is >= threshold (1.4000)
+>> Time complexity of MinHeap::remove() with d=2 is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (1.1624) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.4299) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0872) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0552) is < threshold (1.4000)
+[       OK ] HeapRuntime.Remove (580 ms)
+[----------] 1 test from HeapRuntime (580 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (580 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"HeapRuntime.Remove" end time: Dec 04 14:34 PST
+"HeapRuntime.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 04 14:34 PST

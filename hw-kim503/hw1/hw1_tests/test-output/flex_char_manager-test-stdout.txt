@@ -1,0 +1,616 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST SecondMemtest.Execution:
+------------------------------------------------------------------------------
+==764== Memcheck, a memory error detector
+==764== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==764== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==764== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=SecondMemtest.Execution
+==764== 
+Running main() from gtest_main.cc
+Note: Google Test filter = SecondMemtest.Execution
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from SecondMemtest
+[ RUN      ] SecondMemtest.Execution
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw1/hw1_tests/second_memtest
+Hello world!
+[       OK ] SecondMemtest.Execution (524 ms)
+[----------] 1 test from SecondMemtest (528 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (548 ms total)
+[  PASSED  ] 1 test.
+==764== 
+==764== HEAP SUMMARY:
+==764==     in use at exit: 72,704 bytes in 1 blocks
+==764==   total heap usage: 365 allocs, 364 frees, 138,969 bytes allocated
+==764== 
+==764== LEAK SUMMARY:
+==764==    definitely lost: 0 bytes in 0 blocks
+==764==    indirectly lost: 0 bytes in 0 blocks
+==764==      possibly lost: 0 bytes in 0 blocks
+==764==    still reachable: 0 bytes in 0 blocks
+==764==         suppressed: 72,704 bytes in 1 blocks
+==764== 
+==764== For counts of detected and suppressed errors, rerun with: -v
+==764== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.ConstructionDestruction:
+------------------------------------------------------------------------------
+==766== Memcheck, a memory error detector
+==766== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==766== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==766== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.ConstructionDestruction
+==766== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.ConstructionDestruction
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.ConstructionDestruction
+[       OK ] FlexCharManager.ConstructionDestruction (13 ms)
+[----------] 1 test from FlexCharManager (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (37 ms total)
+[  PASSED  ] 1 test.
+==766== 
+==766== HEAP SUMMARY:
+==766==     in use at exit: 72,704 bytes in 1 blocks
+==766==   total heap usage: 339 allocs, 338 frees, 139,999 bytes allocated
+==766== 
+==766== LEAK SUMMARY:
+==766==    definitely lost: 0 bytes in 0 blocks
+==766==    indirectly lost: 0 bytes in 0 blocks
+==766==      possibly lost: 0 bytes in 0 blocks
+==766==    still reachable: 0 bytes in 0 blocks
+==766==         suppressed: 72,704 bytes in 1 blocks
+==766== 
+==766== For counts of detected and suppressed errors, rerun with: -v
+==766== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.InvalidFree:
+------------------------------------------------------------------------------
+==772== Memcheck, a memory error detector
+==772== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==772== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==772== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.InvalidFree
+==772== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.InvalidFree
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.InvalidFree
+[       OK ] FlexCharManager.InvalidFree (13 ms)
+[----------] 1 test from FlexCharManager (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (37 ms total)
+[  PASSED  ] 1 test.
+==772== 
+==772== HEAP SUMMARY:
+==772==     in use at exit: 72,704 bytes in 1 blocks
+==772==   total heap usage: 339 allocs, 338 frees, 139,735 bytes allocated
+==772== 
+==772== LEAK SUMMARY:
+==772==    definitely lost: 0 bytes in 0 blocks
+==772==    indirectly lost: 0 bytes in 0 blocks
+==772==      possibly lost: 0 bytes in 0 blocks
+==772==    still reachable: 0 bytes in 0 blocks
+==772==         suppressed: 72,704 bytes in 1 blocks
+==772== 
+==772== For counts of detected and suppressed errors, rerun with: -v
+==772== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.ZeroFill:
+------------------------------------------------------------------------------
+==773== Memcheck, a memory error detector
+==773== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==773== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==773== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.ZeroFill
+==773== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.ZeroFill
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.ZeroFill
+[       OK ] FlexCharManager.ZeroFill (15 ms)
+[----------] 1 test from FlexCharManager (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (39 ms total)
+[  PASSED  ] 1 test.
+==773== 
+==773== HEAP SUMMARY:
+==773==     in use at exit: 72,704 bytes in 1 blocks
+==773==   total heap usage: 339 allocs, 338 frees, 139,714 bytes allocated
+==773== 
+==773== LEAK SUMMARY:
+==773==    definitely lost: 0 bytes in 0 blocks
+==773==    indirectly lost: 0 bytes in 0 blocks
+==773==      possibly lost: 0 bytes in 0 blocks
+==773==    still reachable: 0 bytes in 0 blocks
+==773==         suppressed: 72,704 bytes in 1 blocks
+==773== 
+==773== For counts of detected and suppressed errors, rerun with: -v
+==773== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.OneCharAlloc:
+------------------------------------------------------------------------------
+==774== Memcheck, a memory error detector
+==774== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==774== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==774== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.OneCharAlloc
+==774== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.OneCharAlloc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.OneCharAlloc
+[       OK ] FlexCharManager.OneCharAlloc (15 ms)
+[----------] 1 test from FlexCharManager (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==774== 
+==774== HEAP SUMMARY:
+==774==     in use at exit: 72,704 bytes in 1 blocks
+==774==   total heap usage: 340 allocs, 339 frees, 139,758 bytes allocated
+==774== 
+==774== LEAK SUMMARY:
+==774==    definitely lost: 0 bytes in 0 blocks
+==774==    indirectly lost: 0 bytes in 0 blocks
+==774==      possibly lost: 0 bytes in 0 blocks
+==774==    still reachable: 0 bytes in 0 blocks
+==774==         suppressed: 72,704 bytes in 1 blocks
+==774== 
+==774== For counts of detected and suppressed errors, rerun with: -v
+==774== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.OneCharFree:
+------------------------------------------------------------------------------
+==775== Memcheck, a memory error detector
+==775== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==775== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==775== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.OneCharFree
+==775== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.OneCharFree
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.OneCharFree
+[       OK ] FlexCharManager.OneCharFree (18 ms)
+[----------] 1 test from FlexCharManager (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==775== 
+==775== HEAP SUMMARY:
+==775==     in use at exit: 72,704 bytes in 1 blocks
+==775==   total heap usage: 340 allocs, 339 frees, 139,751 bytes allocated
+==775== 
+==775== LEAK SUMMARY:
+==775==    definitely lost: 0 bytes in 0 blocks
+==775==    indirectly lost: 0 bytes in 0 blocks
+==775==      possibly lost: 0 bytes in 0 blocks
+==775==    still reachable: 0 bytes in 0 blocks
+==775==         suppressed: 72,704 bytes in 1 blocks
+==775== 
+==775== For counts of detected and suppressed errors, rerun with: -v
+==775== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.FiveCharAlloc:
+------------------------------------------------------------------------------
+==776== Memcheck, a memory error detector
+==776== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==776== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==776== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.FiveCharAlloc
+==776== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.FiveCharAlloc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.FiveCharAlloc
+[       OK ] FlexCharManager.FiveCharAlloc (17 ms)
+[----------] 1 test from FlexCharManager (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (43 ms total)
+[  PASSED  ] 1 test.
+==776== 
+==776== HEAP SUMMARY:
+==776==     in use at exit: 72,704 bytes in 1 blocks
+==776==   total heap usage: 340 allocs, 339 frees, 139,765 bytes allocated
+==776== 
+==776== LEAK SUMMARY:
+==776==    definitely lost: 0 bytes in 0 blocks
+==776==    indirectly lost: 0 bytes in 0 blocks
+==776==      possibly lost: 0 bytes in 0 blocks
+==776==    still reachable: 0 bytes in 0 blocks
+==776==         suppressed: 72,704 bytes in 1 blocks
+==776== 
+==776== For counts of detected and suppressed errors, rerun with: -v
+==776== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.FiveCharAllocFree:
+------------------------------------------------------------------------------
+==778== Memcheck, a memory error detector
+==778== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==778== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==778== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.FiveCharAllocFree
+==778== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.FiveCharAllocFree
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.FiveCharAllocFree
+[       OK ] FlexCharManager.FiveCharAllocFree (19 ms)
+[----------] 1 test from FlexCharManager (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==778== 
+==778== HEAP SUMMARY:
+==778==     in use at exit: 72,704 bytes in 1 blocks
+==778==   total heap usage: 340 allocs, 339 frees, 139,853 bytes allocated
+==778== 
+==778== LEAK SUMMARY:
+==778==    definitely lost: 0 bytes in 0 blocks
+==778==    indirectly lost: 0 bytes in 0 blocks
+==778==      possibly lost: 0 bytes in 0 blocks
+==778==    still reachable: 0 bytes in 0 blocks
+==778==         suppressed: 72,704 bytes in 1 blocks
+==778== 
+==778== For counts of detected and suppressed errors, rerun with: -v
+==778== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.Alloc_x2:
+------------------------------------------------------------------------------
+==779== Memcheck, a memory error detector
+==779== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==779== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==779== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.Alloc_x2
+==779== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.Alloc_x2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.Alloc_x2
+[       OK ] FlexCharManager.Alloc_x2 (18 ms)
+[----------] 1 test from FlexCharManager (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (44 ms total)
+[  PASSED  ] 1 test.
+==779== 
+==779== HEAP SUMMARY:
+==779==     in use at exit: 72,704 bytes in 1 blocks
+==779==   total heap usage: 341 allocs, 340 frees, 139,746 bytes allocated
+==779== 
+==779== LEAK SUMMARY:
+==779==    definitely lost: 0 bytes in 0 blocks
+==779==    indirectly lost: 0 bytes in 0 blocks
+==779==      possibly lost: 0 bytes in 0 blocks
+==779==    still reachable: 0 bytes in 0 blocks
+==779==         suppressed: 72,704 bytes in 1 blocks
+==779== 
+==779== For counts of detected and suppressed errors, rerun with: -v
+==779== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.AllocFree_x2_RevOrder:
+------------------------------------------------------------------------------
+==780== Memcheck, a memory error detector
+==780== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==780== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==780== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.AllocFree_x2_RevOrder
+==780== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.AllocFree_x2_RevOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.AllocFree_x2_RevOrder
+[       OK ] FlexCharManager.AllocFree_x2_RevOrder (21 ms)
+[----------] 1 test from FlexCharManager (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==780== 
+==780== HEAP SUMMARY:
+==780==     in use at exit: 72,704 bytes in 1 blocks
+==780==   total heap usage: 341 allocs, 340 frees, 139,977 bytes allocated
+==780== 
+==780== LEAK SUMMARY:
+==780==    definitely lost: 0 bytes in 0 blocks
+==780==    indirectly lost: 0 bytes in 0 blocks
+==780==      possibly lost: 0 bytes in 0 blocks
+==780==    still reachable: 0 bytes in 0 blocks
+==780==         suppressed: 72,704 bytes in 1 blocks
+==780== 
+==780== For counts of detected and suppressed errors, rerun with: -v
+==780== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.AllocFree_x2_FwdOrder:
+------------------------------------------------------------------------------
+==783== Memcheck, a memory error detector
+==783== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==783== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==783== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.AllocFree_x2_FwdOrder
+==783== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.AllocFree_x2_FwdOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.AllocFree_x2_FwdOrder
+[       OK ] FlexCharManager.AllocFree_x2_FwdOrder (24 ms)
+[----------] 1 test from FlexCharManager (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (53 ms total)
+[  PASSED  ] 1 test.
+==783== 
+==783== HEAP SUMMARY:
+==783==     in use at exit: 72,704 bytes in 1 blocks
+==783==   total heap usage: 341 allocs, 340 frees, 139,977 bytes allocated
+==783== 
+==783== LEAK SUMMARY:
+==783==    definitely lost: 0 bytes in 0 blocks
+==783==    indirectly lost: 0 bytes in 0 blocks
+==783==      possibly lost: 0 bytes in 0 blocks
+==783==    still reachable: 0 bytes in 0 blocks
+==783==         suppressed: 72,704 bytes in 1 blocks
+==783== 
+==783== For counts of detected and suppressed errors, rerun with: -v
+==783== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.MemoryReuse:
+------------------------------------------------------------------------------
+==784== Memcheck, a memory error detector
+==784== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==784== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==784== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.MemoryReuse
+==784== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.MemoryReuse
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.MemoryReuse
+[       OK ] FlexCharManager.MemoryReuse (54 ms)
+[----------] 1 test from FlexCharManager (58 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (79 ms total)
+[  PASSED  ] 1 test.
+==784== 
+==784== HEAP SUMMARY:
+==784==     in use at exit: 72,704 bytes in 1 blocks
+==784==   total heap usage: 383 allocs, 382 frees, 140,855 bytes allocated
+==784== 
+==784== LEAK SUMMARY:
+==784==    definitely lost: 0 bytes in 0 blocks
+==784==    indirectly lost: 0 bytes in 0 blocks
+==784==      possibly lost: 0 bytes in 0 blocks
+==784==    still reachable: 0 bytes in 0 blocks
+==784==         suppressed: 72,704 bytes in 1 blocks
+==784== 
+==784== For counts of detected and suppressed errors, rerun with: -v
+==784== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.Alloc10000Chars:
+------------------------------------------------------------------------------
+==785== Memcheck, a memory error detector
+==785== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==785== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==785== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.Alloc10000Chars
+==785== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.Alloc10000Chars
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.Alloc10000Chars
+[       OK ] FlexCharManager.Alloc10000Chars (20 ms)
+[----------] 1 test from FlexCharManager (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (43 ms total)
+[  PASSED  ] 1 test.
+==785== 
+==785== HEAP SUMMARY:
+==785==     in use at exit: 72,704 bytes in 1 blocks
+==785==   total heap usage: 340 allocs, 339 frees, 139,799 bytes allocated
+==785== 
+==785== LEAK SUMMARY:
+==785==    definitely lost: 0 bytes in 0 blocks
+==785==    indirectly lost: 0 bytes in 0 blocks
+==785==      possibly lost: 0 bytes in 0 blocks
+==785==    still reachable: 0 bytes in 0 blocks
+==785==         suppressed: 72,704 bytes in 1 blocks
+==785== 
+==785== For counts of detected and suppressed errors, rerun with: -v
+==785== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.Alloc5Charx2000:
+------------------------------------------------------------------------------
+==786== Memcheck, a memory error detector
+==786== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==786== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==786== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.Alloc5Charx2000
+==786== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.Alloc5Charx2000
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.Alloc5Charx2000
+[       OK ] FlexCharManager.Alloc5Charx2000 (1103 ms)
+[----------] 1 test from FlexCharManager (1107 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1128 ms total)
+[  PASSED  ] 1 test.
+==786== 
+==786== HEAP SUMMARY:
+==786==     in use at exit: 72,704 bytes in 1 blocks
+==786==   total heap usage: 2,361 allocs, 2,360 frees, 237,279 bytes allocated
+==786== 
+==786== LEAK SUMMARY:
+==786==    definitely lost: 0 bytes in 0 blocks
+==786==    indirectly lost: 0 bytes in 0 blocks
+==786==      possibly lost: 0 bytes in 0 blocks
+==786==    still reachable: 0 bytes in 0 blocks
+==786==         suppressed: 72,704 bytes in 1 blocks
+==786== 
+==786== For counts of detected and suppressed errors, rerun with: -v
+==786== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.AllocDealloc10Charx1000:
+------------------------------------------------------------------------------
+==787== Memcheck, a memory error detector
+==787== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==787== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==787== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.AllocDealloc10Charx1000
+==787== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.AllocDealloc10Charx1000
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.AllocDealloc10Charx1000
+[       OK ] FlexCharManager.AllocDealloc10Charx1000 (50414 ms)
+[----------] 1 test from FlexCharManager (50418 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (50440 ms total)
+[  PASSED  ] 1 test.
+==787== 
+==787== HEAP SUMMARY:
+==787==     in use at exit: 72,704 bytes in 1 blocks
+==787==   total heap usage: 1,368 allocs, 1,367 frees, 196,903 bytes allocated
+==787== 
+==787== LEAK SUMMARY:
+==787==    definitely lost: 0 bytes in 0 blocks
+==787==    indirectly lost: 0 bytes in 0 blocks
+==787==      possibly lost: 0 bytes in 0 blocks
+==787==    still reachable: 0 bytes in 0 blocks
+==787==         suppressed: 72,704 bytes in 1 blocks
+==787== 
+==787== For counts of detected and suppressed errors, rerun with: -v
+==787== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.RandomOrderDealloc:
+------------------------------------------------------------------------------
+==788== Memcheck, a memory error detector
+==788== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==788== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==788== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.RandomOrderDealloc
+==788== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.RandomOrderDealloc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.RandomOrderDealloc
+[       OK ] FlexCharManager.RandomOrderDealloc (109 ms)
+[----------] 1 test from FlexCharManager (114 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (136 ms total)
+[  PASSED  ] 1 test.
+==788== 
+==788== HEAP SUMMARY:
+==788==     in use at exit: 72,704 bytes in 1 blocks
+==788==   total heap usage: 865 allocs, 864 frees, 168,288 bytes allocated
+==788== 
+==788== LEAK SUMMARY:
+==788==    definitely lost: 0 bytes in 0 blocks
+==788==    indirectly lost: 0 bytes in 0 blocks
+==788==      possibly lost: 0 bytes in 0 blocks
+==788==    still reachable: 0 bytes in 0 blocks
+==788==         suppressed: 72,704 bytes in 1 blocks
+==788== 
+==788== For counts of detected and suppressed errors, rerun with: -v
+==788== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.BasicFirstFit:
+------------------------------------------------------------------------------
+==789== Memcheck, a memory error detector
+==789== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==789== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==789== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.BasicFirstFit
+==789== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.BasicFirstFit
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.BasicFirstFit
+[       OK ] FlexCharManager.BasicFirstFit (25 ms)
+[----------] 1 test from FlexCharManager (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (52 ms total)
+[  PASSED  ] 1 test.
+==789== 
+==789== HEAP SUMMARY:
+==789==     in use at exit: 72,704 bytes in 1 blocks
+==789==   total heap usage: 342 allocs, 341 frees, 139,797 bytes allocated
+==789== 
+==789== LEAK SUMMARY:
+==789==    definitely lost: 0 bytes in 0 blocks
+==789==    indirectly lost: 0 bytes in 0 blocks
+==789==      possibly lost: 0 bytes in 0 blocks
+==789==    still reachable: 0 bytes in 0 blocks
+==789==         suppressed: 72,704 bytes in 1 blocks
+==789== 
+==789== For counts of detected and suppressed errors, rerun with: -v
+==789== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST FlexCharManager.IntermediateFirstFit:
+------------------------------------------------------------------------------
+==790== Memcheck, a memory error detector
+==790== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==790== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==790== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/flex_char_manager/flex_char_manager_test --gtest_filter=FlexCharManager.IntermediateFirstFit
+==790== 
+Running main() from gtest_main.cc
+Note: Google Test filter = FlexCharManager.IntermediateFirstFit
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from FlexCharManager
+[ RUN      ] FlexCharManager.IntermediateFirstFit
+[       OK ] FlexCharManager.IntermediateFirstFit (28 ms)
+[----------] 1 test from FlexCharManager (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==790== 
+==790== HEAP SUMMARY:
+==790==     in use at exit: 72,704 bytes in 1 blocks
+==790==   total heap usage: 355 allocs, 354 frees, 140,350 bytes allocated
+==790== 
+==790== LEAK SUMMARY:
+==790==    definitely lost: 0 bytes in 0 blocks
+==790==    indirectly lost: 0 bytes in 0 blocks
+==790==      possibly lost: 0 bytes in 0 blocks
+==790==    still reachable: 0 bytes in 0 blocks
+==790==         suppressed: 72,704 bytes in 1 blocks
+==790== 
+==790== For counts of detected and suppressed errors, rerun with: -v
+==790== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

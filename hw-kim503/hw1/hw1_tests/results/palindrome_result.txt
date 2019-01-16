@@ -1,0 +1,8 @@
+Test Palindrome.Empty passed
+Test Palindrome.SingleChar passed
+Test Palindrome.PalindromeWordOddLength passed
+Test Palindrome.PalindromeWordEvenLength passed
+Test Palindrome.NonPalindromeWordOddLength passed
+Test Palindrome.NonPalindromeWordEvenLength passed
+
+All Test Cases Passed

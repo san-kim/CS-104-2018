@@ -1,0 +1,12 @@
+[ 42%] Built target kwsys
+[ 47%] Building CXX object CMakeFiles/hw1_simple_char_manager.dir/home/cs104/cs104/hw-kim503/hw1/simpleCharManager.cpp.o
+[ 52%] Linking CXX static library libhw1_simple_char_manager.a
+[ 52%] Built target hw1_simple_char_manager
+[ 57%] Building CXX object CMakeFiles/first_memtest.dir/home/cs104/cs104/hw-kim503/hw1/first_memtest.cpp.o
+[ 61%] Linking CXX executable first_memtest
+[ 61%] Built target first_memtest
+[ 85%] Built target testing_utils
+[ 90%] Building CXX object simple_char_manager/CMakeFiles/simple_char_manager_test.dir/first_memtest_test.cpp.o
+[ 95%] Building CXX object simple_char_manager/CMakeFiles/simple_char_manager_test.dir/simple_mem_test.cpp.o
+[100%] Linking CXX executable simple_char_manager_test
+[100%] Built target simple_char_manager_test

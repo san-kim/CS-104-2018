@@ -1,0 +1,92 @@
+
+
+Problem 4c: analyze your k-way Templated Merge Sort
+
+For a k-way templated merge sort with n being the size of the starting array,
+mergeSort will call the split function once and the merge function once with
+parameters being the original state of the array and k for split and the results 
+of split as well as the k value and the maximum size value for merge. 
+
+For the split function, we have an outer while loop with the condition being that
+the loop will run as long as long as the subarrays vector is not empty. We run
+the while loop until the original array is split into subarrays of size 1, or single
+element lists. We divide each subarray into k elements every iterations of the while 
+loop, so we expect that the while loop will run log base k of (n) times because each 
+iteration of the loop "x" divides each subarray of previous iteration by k subarrays
+until they are n single element arrays so k^x = n, making x, the number of times the
+while loop runs, be x = logk(n). The summation for the outer while loop will thus be
+summation(i=0 to logk(n)-1) of (innards of the while loop).
+We then get to our inner forloop which iterates through all subarrays of the previous
+iteration, so the number of times this forloop runs is (k^i) where i is the number of
+iterations of the outer while loop. This forloop runs through all the previous subarrays 
+and k-way splits each of them. The summation for the forloop would therefore be 
+summation(j=0 to k^i) of (forloop innards).
+The if statement is if the subarray we are evaluating to split is <= than k,
+or if splitting it will make it into size 1 subarrays. This will be at worst case 
+big theta of k because it will split the evaluating subarray of the previous iteration
+into k parts. This will push back the size 1 array into a results 2d vector and pop
+from the subarrays vector. This will be a theta(k) operation.
+The else statement splits each subarray into k different subarrays, so we must copy
+and push back corresponding elements of the evaluating subarray into "split" array 
+vectors, so the operation will have a runtime of the SIZE of each array at this 
+iteration, n/(k^i), and divide it by k, making it n/(k^(i+1)) for k iterations of the
+forloop in the else statement, so the theta of the else would be n/k^i. 
+Since we must consider worst case, we should assume that it is the else statement
+that runs all (or i-1) times. Therefore the runtime of split in general would be
+summation(i=0 to logk(n)-1) of ( summation(j=0 to k^i) of (n/(k^i) ) ). The 
+summation(j=0 to k^i) of (n/(k^i) ) = theta(n), so the summation of the whole
+split function would be: n*logk(n). 
+
+For the merge function, the outer while loop similarly runs logk(n) iterations because
+each iteration merges k subarrays (or fewer if splitarray.size() < k) per iteration, so
+the while condition--which is basically if the split arrays have been merged into one 
+single sorted array. So if x is the number of iterations for the n single element split
+arrays, k^x = n, making the number of iterations of the while loop x = logk(n). The
+summation for the outer loop would be: summation(i=1 to logk(n)) of (innards of loop).
+We first find how many elements to merge, whether there are even k arrays to merge at the
+current stage. For worst case, we will still merge k elements. We then instantiate a
+vector of indexes for each k sorted arrays to merge in order to keep track of where in
+each k sorted subarrays we are at, which takes theta(k) operations.
+We then arrive at our inner while loop, which is where one k-merge happens. We will "pop"
+each indexes element as well as its corresponding sorted splitarray when the index of 
+that splitarray is at its end, i.e when all of its elements have been placed into the
+new merged and sorted array, so the inner while condition checks whether all indexes are
+popped or when all elements of the k arrays have been placed/merged. Each while loop 
+iteration will find the smallest element of each of the k split arrays (their current)
+"front" or "head" elements referred by the indexes array and place it into the resulting
+vector. Each iteration places one element of all the k split arrays. The while loop will
+therefore run the number of elements in all k subarrays. Given the iteration of the while
+loop, "i", each k subarray at worst case will have k^(i-1) elements (with i=1 being first
+iteration, will have k^0 = 1 element) making this while loop run k*k^(i-1) = k^i times. 
+Each iteration of the while loop will be theta(k) because besides the theta(1) operations,
+the forloop which checks all k "heads" of each split array makes it theta(k). 
+The inner while loop will therefore be a theta(k^(i+1)) operation.
+The innards of the outermost array would therefore be theta(k) + theta(k^(i+1)), so the
+innards of the outer while loop would be theta(k^(i+1)). 
+The summation for the outermost while loop (and consequently for the merge function) 
+would be summation(i=1 to logk(n)) of (theta(k^(i+1)) ). This geometric series ends up
+being theta(k^(logk(n)+1) ), which translates to theta(k^1) * theta(k^logk(n)), which
+simplifies to theta(k*n). 
+
+Because mergeSort calls both split and merge functions, mergeSort's time complexity
+would end up being theta(n*logk(n)) + theta(k*n) for split and merge respectively. 
+The runtime for all of mergeSort will be theta(k*n + n*logk(n)). We do not exactly know
+whether logk(n) or k is greater (when dividing both sides by n) because n may be 
+greater than or less than k^k, so our resulting theta is still theta(k*n + n*logk(n)).
+
+
+If we did a k = n mergesort, our mergeSort will resemble selection sort because we will 
+first split our array into n single-sized arrays, and merge them all in one merge because
+k = n. Merging all elements at once, we find the smallest element of the n single sized 
+arrays, put it in a resulting vector, find the next smallest element of the n-1 remaining
+arrays, put it in the result vector, and so forth until we have placed all "smallest" 
+elements of the split arrays one by one, n times and placed each into the resulting 
+vector. We have effectively done selection sort where we found the smallest element of 
+the remaining single-sized elements and placed the i-th smallest element in the i-th
+location of the resulting array--effectively/exactly what selection sort does. The 
+time complexity for mergeSort with k = nwould therefore be theta(n^2) because it 
+finds the smallest element in the n-sized list, places/pops it, finds the smallest
+in the n-1 sized list, places/pops it, etc. until it places the last, largest element
+at the end of the resulting vector; it does n + n-1 + n-2 ... + 1 comparisons and thus 
+is theta(n^2). To check, we substitute k for n in our theta we found above:
+theta(n*n + n*logn(n)) = theta (n^2 + n) = theta(n^2). 

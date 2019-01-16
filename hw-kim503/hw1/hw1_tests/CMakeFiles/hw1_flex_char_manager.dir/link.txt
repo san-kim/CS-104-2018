@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw1_flex_char_manager.a  CMakeFiles/hw1_flex_char_manager.dir/home/cs104/cs104/hw-kim503/hw1/flexCharManager.cpp.o
+/usr/bin/ranlib libhw1_flex_char_manager.a

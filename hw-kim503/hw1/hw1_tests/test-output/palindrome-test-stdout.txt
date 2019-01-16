@@ -1,0 +1,223 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST Palindrome.Empty:
+------------------------------------------------------------------------------
+==725== Memcheck, a memory error detector
+==725== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==725== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==725== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/palindrome_test --gtest_filter=Palindrome.Empty
+==725== 
+Running main() from gtest_main.cc
+Note: Google Test filter = Palindrome.Empty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Palindrome
+[ RUN      ] Palindrome.Empty
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw1/hw1_tests/q4_palindrome 
+Your program's STDOUT and STDERR were written to: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/testFiles/empty/output.log
+[       OK ] Palindrome.Empty (589 ms)
+[----------] 1 test from Palindrome (594 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (618 ms total)
+[  PASSED  ] 1 test.
+==725== 
+==725== HEAP SUMMARY:
+==725==     in use at exit: 72,704 bytes in 1 blocks
+==725==   total heap usage: 275 allocs, 274 frees, 142,688 bytes allocated
+==725== 
+==725== LEAK SUMMARY:
+==725==    definitely lost: 0 bytes in 0 blocks
+==725==    indirectly lost: 0 bytes in 0 blocks
+==725==      possibly lost: 0 bytes in 0 blocks
+==725==    still reachable: 0 bytes in 0 blocks
+==725==         suppressed: 72,704 bytes in 1 blocks
+==725== 
+==725== For counts of detected and suppressed errors, rerun with: -v
+==725== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST Palindrome.SingleChar:
+------------------------------------------------------------------------------
+==727== Memcheck, a memory error detector
+==727== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==727== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==727== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/palindrome_test --gtest_filter=Palindrome.SingleChar
+==727== 
+Running main() from gtest_main.cc
+Note: Google Test filter = Palindrome.SingleChar
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Palindrome
+[ RUN      ] Palindrome.SingleChar
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw1/hw1_tests/q4_palindrome r
+Your program's STDOUT and STDERR were written to: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/testFiles/single_char/output.log
+[       OK ] Palindrome.SingleChar (574 ms)
+[----------] 1 test from Palindrome (578 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (602 ms total)
+[  PASSED  ] 1 test.
+==727== 
+==727== HEAP SUMMARY:
+==727==     in use at exit: 72,704 bytes in 1 blocks
+==727==   total heap usage: 275 allocs, 274 frees, 142,773 bytes allocated
+==727== 
+==727== LEAK SUMMARY:
+==727==    definitely lost: 0 bytes in 0 blocks
+==727==    indirectly lost: 0 bytes in 0 blocks
+==727==      possibly lost: 0 bytes in 0 blocks
+==727==    still reachable: 0 bytes in 0 blocks
+==727==         suppressed: 72,704 bytes in 1 blocks
+==727== 
+==727== For counts of detected and suppressed errors, rerun with: -v
+==727== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST Palindrome.PalindromeWordOddLength:
+------------------------------------------------------------------------------
+==729== Memcheck, a memory error detector
+==729== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==729== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==729== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/palindrome_test --gtest_filter=Palindrome.PalindromeWordOddLength
+==729== 
+Running main() from gtest_main.cc
+Note: Google Test filter = Palindrome.PalindromeWordOddLength
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Palindrome
+[ RUN      ] Palindrome.PalindromeWordOddLength
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw1/hw1_tests/q4_palindrome racecar
+Your program's STDOUT and STDERR were written to: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/testFiles/palindrome_word_oddlength/output.log
+[       OK ] Palindrome.PalindromeWordOddLength (580 ms)
+[----------] 1 test from Palindrome (585 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (607 ms total)
+[  PASSED  ] 1 test.
+==729== 
+==729== HEAP SUMMARY:
+==729==     in use at exit: 72,704 bytes in 1 blocks
+==729==   total heap usage: 276 allocs, 275 frees, 143,046 bytes allocated
+==729== 
+==729== LEAK SUMMARY:
+==729==    definitely lost: 0 bytes in 0 blocks
+==729==    indirectly lost: 0 bytes in 0 blocks
+==729==      possibly lost: 0 bytes in 0 blocks
+==729==    still reachable: 0 bytes in 0 blocks
+==729==         suppressed: 72,704 bytes in 1 blocks
+==729== 
+==729== For counts of detected and suppressed errors, rerun with: -v
+==729== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST Palindrome.PalindromeWordEvenLength:
+------------------------------------------------------------------------------
+==731== Memcheck, a memory error detector
+==731== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==731== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==731== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/palindrome_test --gtest_filter=Palindrome.PalindromeWordEvenLength
+==731== 
+Running main() from gtest_main.cc
+Note: Google Test filter = Palindrome.PalindromeWordEvenLength
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Palindrome
+[ RUN      ] Palindrome.PalindromeWordEvenLength
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw1/hw1_tests/q4_palindrome redder
+Your program's STDOUT and STDERR were written to: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/testFiles/palindrome_word_evenlength/output.log
+[       OK ] Palindrome.PalindromeWordEvenLength (571 ms)
+[----------] 1 test from Palindrome (577 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (598 ms total)
+[  PASSED  ] 1 test.
+==731== 
+==731== HEAP SUMMARY:
+==731==     in use at exit: 72,704 bytes in 1 blocks
+==731==   total heap usage: 276 allocs, 275 frees, 143,068 bytes allocated
+==731== 
+==731== LEAK SUMMARY:
+==731==    definitely lost: 0 bytes in 0 blocks
+==731==    indirectly lost: 0 bytes in 0 blocks
+==731==      possibly lost: 0 bytes in 0 blocks
+==731==    still reachable: 0 bytes in 0 blocks
+==731==         suppressed: 72,704 bytes in 1 blocks
+==731== 
+==731== For counts of detected and suppressed errors, rerun with: -v
+==731== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST Palindrome.NonPalindromeWordOddLength:
+------------------------------------------------------------------------------
+==734== Memcheck, a memory error detector
+==734== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==734== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==734== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/palindrome_test --gtest_filter=Palindrome.NonPalindromeWordOddLength
+==734== 
+Running main() from gtest_main.cc
+Note: Google Test filter = Palindrome.NonPalindromeWordOddLength
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Palindrome
+[ RUN      ] Palindrome.NonPalindromeWordOddLength
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw1/hw1_tests/q4_palindrome abcddba
+Your program's STDOUT and STDERR were written to: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/testFiles/non_palindrome_word_oddlength/output.log
+[       OK ] Palindrome.NonPalindromeWordOddLength (589 ms)
+[----------] 1 test from Palindrome (594 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (616 ms total)
+[  PASSED  ] 1 test.
+==734== 
+==734== HEAP SUMMARY:
+==734==     in use at exit: 72,704 bytes in 1 blocks
+==734==   total heap usage: 277 allocs, 276 frees, 143,158 bytes allocated
+==734== 
+==734== LEAK SUMMARY:
+==734==    definitely lost: 0 bytes in 0 blocks
+==734==    indirectly lost: 0 bytes in 0 blocks
+==734==      possibly lost: 0 bytes in 0 blocks
+==734==    still reachable: 0 bytes in 0 blocks
+==734==         suppressed: 72,704 bytes in 1 blocks
+==734== 
+==734== For counts of detected and suppressed errors, rerun with: -v
+==734== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST Palindrome.NonPalindromeWordEvenLength:
+------------------------------------------------------------------------------
+==736== Memcheck, a memory error detector
+==736== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==736== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==736== Command: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/palindrome_test --gtest_filter=Palindrome.NonPalindromeWordEvenLength
+==736== 
+Running main() from gtest_main.cc
+Note: Google Test filter = Palindrome.NonPalindromeWordEvenLength
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Palindrome
+[ RUN      ] Palindrome.NonPalindromeWordEvenLength
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw1/hw1_tests/q4_palindrome amanaplanacanal
+Your program's STDOUT and STDERR were written to: /home/cs104/cs104/hw-kim503/hw1/hw1_tests/palindrome/testFiles/non_palindrome_word_evenlength/output.log
+[       OK ] Palindrome.NonPalindromeWordEvenLength (597 ms)
+[----------] 1 test from Palindrome (602 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (624 ms total)
+[  PASSED  ] 1 test.
+==736== 
+==736== HEAP SUMMARY:
+==736==     in use at exit: 72,704 bytes in 1 blocks
+==736==   total heap usage: 277 allocs, 276 frees, 143,198 bytes allocated
+==736== 
+==736== LEAK SUMMARY:
+==736==    definitely lost: 0 bytes in 0 blocks
+==736==    indirectly lost: 0 bytes in 0 blocks
+==736==      possibly lost: 0 bytes in 0 blocks
+==736==    still reachable: 0 bytes in 0 blocks
+==736==         suppressed: 72,704 bytes in 1 blocks
+==736== 
+==736== For counts of detected and suppressed errors, rerun with: -v
+==736== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

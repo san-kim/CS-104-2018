@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cs104/cs104/hw-kim503/hw6/MinHeap.h
+vector
+-
+exception
+-
+stdexcept
+-
+math.h
+-
+
+/home/cs104/cs104/hw-kim503/hw6/hw6_tests/heap_tests/heap_tests.cpp
+MinHeap.h
+-
+gtest/gtest.h
+-
+random_generator.h
+-
+queue
+-
+algorithm
+-
+
+testing_utils/./random_generator.h
+random
+-
+vector
+-
+set
+-
+string
+-
+cstdint
+-
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cs104/cs104/hw-kim503/hw1/flexCharManager.h
+cstddef
+-
+simpleCharManager.h
+/home/cs104/cs104/hw-kim503/hw1/simpleCharManager.h
+
+/home/cs104/cs104/hw-kim503/hw1/second_memtest.cpp
+iostream
+-
+stdlib.h
+-
+sstream
+-
+flexCharManager.h
+/home/cs104/cs104/hw-kim503/hw1/flexCharManager.h
+
+/home/cs104/cs104/hw-kim503/hw1/simpleCharManager.h
+

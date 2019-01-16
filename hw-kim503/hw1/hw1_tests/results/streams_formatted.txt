@@ -1,0 +1,6 @@
+[PASS] [VPASS] Streams.NoWords (1.243)
+[PASS] [VPASS] Streams.OneWord (1.260)
+[PASS] [VPASS] Streams.FiveWordsSameLine (1.254)
+[PASS] [VPASS] Streams.FiveWordsSeparateLines (1.248)
+[PASS] [VPASS] Streams.MixedWhitespace (1.297)
+[PASS] [VPASS] Streams.ThousandWordStressTest (1.284)

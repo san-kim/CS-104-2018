@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g3 -O0   CMakeFiles/second_memtest.dir/home/cs104/cs104/hw-kim503/hw1/second_memtest.cpp.o  -o second_memtest libhw1_flex_char_manager.a libhw1_simple_char_manager.a 

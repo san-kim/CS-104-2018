@@ -1,0 +1,217 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.OneSquare:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.OneSquare
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.OneSquare
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/OneSquare/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/OneSquare/output.txt
+[       OK ] Search.OneSquare (487 ms)
+[----------] 1 test from Search (487 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (487 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.MicroHorizontal:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.MicroHorizontal
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.MicroHorizontal
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Micro/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Micro/output.txt
+[       OK ] Search.MicroHorizontal (506 ms)
+[----------] 1 test from Search (506 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (506 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.MicroVertical:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.MicroVertical
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.MicroVertical
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/MicroVertical/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/MicroVertical/output.txt
+[       OK ] Search.MicroVertical (504 ms)
+[----------] 1 test from Search (504 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (504 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.Discontiguous:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Discontiguous
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Discontiguous
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Discontiguous/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Discontiguous/output.txt
+[       OK ] Search.Discontiguous (523 ms)
+[----------] 1 test from Search (523 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (523 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.Ring:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Ring
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Ring
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Ring/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Ring/output.txt
+[       OK ] Search.Ring (513 ms)
+[----------] 1 test from Search (513 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (513 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.EqualSmallerCountries:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.EqualSmallerCountries
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.EqualSmallerCountries
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/EqualSmallerCountries/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/EqualSmallerCountries/output.txt
+[       OK ] Search.EqualSmallerCountries (511 ms)
+[----------] 1 test from Search (511 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (511 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.26Letters:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.26Letters
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.26Letters
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/26Letters/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/26Letters/output.txt
+[       OK ] Search.26Letters (515 ms)
+[----------] 1 test from Search (515 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (515 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.DiagonalCountries:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.DiagonalCountries
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.DiagonalCountries
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/DiagonalCountries/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/DiagonalCountries/output.txt
+[       OK ] Search.DiagonalCountries (486 ms)
+[----------] 1 test from Search (486 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (486 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.ProvidedMap:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.ProvidedMap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.ProvidedMap
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/ProvidedMap/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/ProvidedMap/output.txt
+[       OK ] Search.ProvidedMap (508 ms)
+[----------] 1 test from Search (508 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (508 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.WindingRing:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.WindingRing
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.WindingRing
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/WindingRing/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/WindingRing/output.txt
+[       OK ] Search.WindingRing (512 ms)
+[----------] 1 test from Search (512 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (512 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.Concentric:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Concentric
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Concentric
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Concentric/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Concentric/output.txt
+[       OK ] Search.Concentric (509 ms)
+[----------] 1 test from Search (509 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (509 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST Search.Checkerboard:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Search.Checkerboard
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Search
+[ RUN      ] Search.Checkerboard
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104/hw-kim503/hw6/search /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Checkerboard/input.txt
+Your program's STDOUT was written to: /home/cs104/cs104/hw-kim503/hw6/hw6_tests/search_tests/testFiles/Checkerboard/output.txt
+[       OK ] Search.Checkerboard (531 ms)
+[----------] 1 test from Search (531 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (531 ms total)
+[  PASSED  ] 1 test.

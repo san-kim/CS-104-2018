@@ -1,0 +1,8 @@
+Test Streams.NoWords passed
+Test Streams.OneWord passed
+Test Streams.FiveWordsSameLine passed
+Test Streams.FiveWordsSeparateLines passed
+Test Streams.MixedWhitespace passed
+Test Streams.ThousandWordStressTest passed
+
+All Test Cases Passed
